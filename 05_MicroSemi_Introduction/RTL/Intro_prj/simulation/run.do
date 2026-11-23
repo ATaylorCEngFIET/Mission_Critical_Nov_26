@@ -1,0 +1,18 @@
+quietly set ACTELLIBNAME ProASIC3L
+quietly set PROJECT_DIR "C:/Users/aptay/Dropbox/adiuvo/mission_critical_course/06_MicroSemi_Introduction/RTL/Intro_prj"
+
+if {[file exists presynth/_info]} {
+   echo "INFO: Simulation library presynth already exists"
+} else {
+   file delete -force presynth 
+   vlib presynth
+}
+vmap presynth presynth
+vmap proasic3l "C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3l"
+
+vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/hdl/block_average.vhd"
+vcom -2008 -explicit  -work presynth "${PROJECT_DIR}/stimulus/average_tb.vhd"
+
+vsim -L proasic3l -L presynth  -t 1ps presynth.average_tb
+add wave /average_tb/*
+run 1000ns

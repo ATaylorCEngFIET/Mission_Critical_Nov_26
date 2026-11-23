@@ -1,0 +1,531 @@
+# Tue Dec 01 19:43:20 2020
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 110MB)
+
+@N: MO231 :"c:\users\aptay\dropbox\adiuvo\mission_critical_course\06_microsemi_introduction\rtl\intro_prj\hdl\block_average.vhd":36:4:36:5|Found counter in view:work.average(rtl) instance counter[4:0] 
+@N: MF176 |Default generator successful 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 112MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 112MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                 
+-------------------------------------------------------------
+rst_pad / Y                    72 : 66 asynchronous set/reset
+=============================================================
+
+@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
+@N: FP130 |Promoting Net rst_c on CLKBUF  rst_pad 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 84 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance    
+-------------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   84         accumulator_tmr2[0]
+===========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+Writing Analyst data base C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\synwork\average_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+@W: MT420 |Found inferred clock average|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Dec 01 19:43:21 2020
+#
+
+
+Top view:               average
+Library name:           pa3l
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.14, P = 1.26, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        pa3l
+Paths requested:        5
+Constraint File(s):    C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\average_syn.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.394
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+average|clk        100.0 MHz     96.2 MHz      10.000        10.394        -0.394     inferred     Inferred_clkgroup_0
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------
+Starting     Ending       |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------
+average|clk  average|clk  |  10.000      -0.394  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: average|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                   Arrival           
+Instance                Reference       Type       Pin     Net                     Time        Slack 
+                        Clock                                                                        
+-----------------------------------------------------------------------------------------------------
+accumulator_tmr2[0]     average|clk     DFN1C1     Q       accumulator_tmr2[0]     0.628       -0.394
+accumulator_tmr2[6]     average|clk     DFN1C1     Q       accumulator_tmr2[6]     0.628       -0.381
+accumulator_tmr3[0]     average|clk     DFN1C1     Q       accumulator_tmr3[0]     0.797       -0.328
+accumulator_tmr3[6]     average|clk     DFN1C1     Q       accumulator_tmr3[6]     0.797       -0.249
+accumulator_tmr2[4]     average|clk     DFN1C1     Q       accumulator_tmr2[4]     0.628       -0.230
+accumulator_tmr2[2]     average|clk     DFN1C1     Q       accumulator_tmr2[2]     0.628       -0.139
+accumulator_tmr3[4]     average|clk     DFN1C1     Q       accumulator_tmr3[4]     0.797       -0.099
+accumulator_tmr2[7]     average|clk     DFN1C1     Q       accumulator_tmr2[7]     0.628       -0.046
+accumulator_tmr3[2]     average|clk     DFN1C1     Q       accumulator_tmr3[2]     0.797       -0.015
+accumulator[0]          average|clk     DFN1C1     Q       accumulator_0[0]        0.797       -0.007
+=====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                 Required           
+Instance                 Reference       Type       Pin     Net                   Time         Slack 
+                         Clock                                                                       
+-----------------------------------------------------------------------------------------------------
+accumulator[11]          average|clk     DFN1C1     D       accumulator_5[11]     9.380        -0.394
+accumulator_tmr2[11]     average|clk     DFN1C1     D       accumulator_5[11]     9.380        -0.394
+accumulator_tmr3[11]     average|clk     DFN1C1     D       accumulator_5[11]     9.380        -0.394
+accumulator[9]           average|clk     DFN1C1     D       accumulator_5[9]      9.380        -0.357
+accumulator_tmr2[9]      average|clk     DFN1C1     D       accumulator_5[9]      9.380        -0.357
+accumulator_tmr3[9]      average|clk     DFN1C1     D       accumulator_5[9]      9.380        -0.357
+accumulator[10]          average|clk     DFN1C1     D       accumulator_5[10]     9.417        -0.270
+accumulator_tmr2[10]     average|clk     DFN1C1     D       accumulator_5[10]     9.417        -0.270
+accumulator_tmr3[10]     average|clk     DFN1C1     D       accumulator_5[10]     9.417        -0.270
+accumulator[7]           average|clk     DFN1C1     D       accumulator_5[7]      9.380        0.190 
+=====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.620
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.380
+
+    - Propagation time:                      9.774
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.394
+
+    Number of logic level(s):                7
+    Starting point:                          accumulator_tmr2[0] / Q
+    Ending point:                            accumulator[11] / D
+    The start point is clocked by            average|clk [rising] on pin CLK
+    The end   point is clocked by            average|clk [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                                Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+accumulator_tmr2[0]                                 DFN1C1     Q        Out     0.628     0.628       -         
+accumulator_tmr2[0]                                 Net        -        -       0.233     -           1         
+accumulator_maj[0]                                  MAJ3       B        In      -         0.861       -         
+accumulator_maj[0]                                  MAJ3       Y        Out     1.064     1.925       -         
+accumulator[0]                                      Net        -        -       0.280     -           2         
+un2_accumulator.ADD_12x12_medium_area_I0_CO1        NOR2B      A        In      -         2.205       -         
+un2_accumulator.ADD_12x12_medium_area_I0_CO1        NOR2B      Y        Out     0.528     2.733       -         
+un2_accumulator.N148                                Net        -        -       0.280     -           2         
+un2_accumulator.ADD_12x12_medium_area_I15_Y         MAJ3       C        In      -         3.013       -         
+un2_accumulator.ADD_12x12_medium_area_I15_Y         MAJ3       Y        Out     0.782     3.795       -         
+un2_accumulator.N191                                Net        -        -       0.585     -           3         
+un2_accumulator.ADD_12x12_medium_area_I18_Y         AO1        B        In      -         4.379       -         
+un2_accumulator.ADD_12x12_medium_area_I18_Y         AO1        Y        Out     0.613     4.992       -         
+un2_accumulator.N216                                Net        -        -       0.858     -           4         
+un2_accumulator.ADD_12x12_medium_area_I19_Y         AO1        B        In      -         5.850       -         
+un2_accumulator.ADD_12x12_medium_area_I19_Y         AO1        Y        Out     0.613     6.463       -         
+un2_accumulator.N205                                Net        -        -       0.858     -           4         
+un2_accumulator.ADD_12x12_medium_area_I32_un1_Y     NOR3C      A        In      -         7.321       -         
+un2_accumulator.ADD_12x12_medium_area_I32_un1_Y     NOR3C      Y        Out     0.568     7.889       -         
+un2_accumulator.I32_un1_Y                           Net        -        -       0.233     -           1         
+un2_accumulator.accumulator_5[11]                   XA1        B        In      -         8.122       -         
+un2_accumulator.accumulator_5[11]                   XA1        Y        Out     1.068     9.189       -         
+accumulator_5[11]                                   Net        -        -       0.585     -           3         
+accumulator[11]                                     DFN1C1     D        In      -         9.774       -         
+================================================================================================================
+Total path delay (propagation time + setup) of 10.394 is 6.483(62.4%) logic and 3.911(37.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.620
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.380
+
+    - Propagation time:                      9.774
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.394
+
+    Number of logic level(s):                7
+    Starting point:                          accumulator_tmr2[0] / Q
+    Ending point:                            accumulator_tmr2[11] / D
+    The start point is clocked by            average|clk [rising] on pin CLK
+    The end   point is clocked by            average|clk [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                                Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+accumulator_tmr2[0]                                 DFN1C1     Q        Out     0.628     0.628       -         
+accumulator_tmr2[0]                                 Net        -        -       0.233     -           1         
+accumulator_maj[0]                                  MAJ3       B        In      -         0.861       -         
+accumulator_maj[0]                                  MAJ3       Y        Out     1.064     1.925       -         
+accumulator[0]                                      Net        -        -       0.280     -           2         
+un2_accumulator.ADD_12x12_medium_area_I0_CO1        NOR2B      A        In      -         2.205       -         
+un2_accumulator.ADD_12x12_medium_area_I0_CO1        NOR2B      Y        Out     0.528     2.733       -         
+un2_accumulator.N148                                Net        -        -       0.280     -           2         
+un2_accumulator.ADD_12x12_medium_area_I15_Y         MAJ3       C        In      -         3.013       -         
+un2_accumulator.ADD_12x12_medium_area_I15_Y         MAJ3       Y        Out     0.782     3.795       -         
+un2_accumulator.N191                                Net        -        -       0.585     -           3         
+un2_accumulator.ADD_12x12_medium_area_I18_Y         AO1        B        In      -         4.379       -         
+un2_accumulator.ADD_12x12_medium_area_I18_Y         AO1        Y        Out     0.613     4.992       -         
+un2_accumulator.N216                                Net        -        -       0.858     -           4         
+un2_accumulator.ADD_12x12_medium_area_I19_Y         AO1        B        In      -         5.850       -         
+un2_accumulator.ADD_12x12_medium_area_I19_Y         AO1        Y        Out     0.613     6.463       -         
+un2_accumulator.N205                                Net        -        -       0.858     -           4         
+un2_accumulator.ADD_12x12_medium_area_I32_un1_Y     NOR3C      A        In      -         7.321       -         
+un2_accumulator.ADD_12x12_medium_area_I32_un1_Y     NOR3C      Y        Out     0.568     7.889       -         
+un2_accumulator.I32_un1_Y                           Net        -        -       0.233     -           1         
+un2_accumulator.accumulator_5[11]                   XA1        B        In      -         8.122       -         
+un2_accumulator.accumulator_5[11]                   XA1        Y        Out     1.068     9.189       -         
+accumulator_5[11]                                   Net        -        -       0.585     -           3         
+accumulator_tmr2[11]                                DFN1C1     D        In      -         9.774       -         
+================================================================================================================
+Total path delay (propagation time + setup) of 10.394 is 6.483(62.4%) logic and 3.911(37.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.620
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.380
+
+    - Propagation time:                      9.774
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.394
+
+    Number of logic level(s):                7
+    Starting point:                          accumulator_tmr2[0] / Q
+    Ending point:                            accumulator_tmr3[11] / D
+    The start point is clocked by            average|clk [rising] on pin CLK
+    The end   point is clocked by            average|clk [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                                Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+accumulator_tmr2[0]                                 DFN1C1     Q        Out     0.628     0.628       -         
+accumulator_tmr2[0]                                 Net        -        -       0.233     -           1         
+accumulator_maj[0]                                  MAJ3       B        In      -         0.861       -         
+accumulator_maj[0]                                  MAJ3       Y        Out     1.064     1.925       -         
+accumulator[0]                                      Net        -        -       0.280     -           2         
+un2_accumulator.ADD_12x12_medium_area_I0_CO1        NOR2B      A        In      -         2.205       -         
+un2_accumulator.ADD_12x12_medium_area_I0_CO1        NOR2B      Y        Out     0.528     2.733       -         
+un2_accumulator.N148                                Net        -        -       0.280     -           2         
+un2_accumulator.ADD_12x12_medium_area_I15_Y         MAJ3       C        In      -         3.013       -         
+un2_accumulator.ADD_12x12_medium_area_I15_Y         MAJ3       Y        Out     0.782     3.795       -         
+un2_accumulator.N191                                Net        -        -       0.585     -           3         
+un2_accumulator.ADD_12x12_medium_area_I18_Y         AO1        B        In      -         4.379       -         
+un2_accumulator.ADD_12x12_medium_area_I18_Y         AO1        Y        Out     0.613     4.992       -         
+un2_accumulator.N216                                Net        -        -       0.858     -           4         
+un2_accumulator.ADD_12x12_medium_area_I19_Y         AO1        B        In      -         5.850       -         
+un2_accumulator.ADD_12x12_medium_area_I19_Y         AO1        Y        Out     0.613     6.463       -         
+un2_accumulator.N205                                Net        -        -       0.858     -           4         
+un2_accumulator.ADD_12x12_medium_area_I32_un1_Y     NOR3C      A        In      -         7.321       -         
+un2_accumulator.ADD_12x12_medium_area_I32_un1_Y     NOR3C      Y        Out     0.568     7.889       -         
+un2_accumulator.I32_un1_Y                           Net        -        -       0.233     -           1         
+un2_accumulator.accumulator_5[11]                   XA1        B        In      -         8.122       -         
+un2_accumulator.accumulator_5[11]                   XA1        Y        Out     1.068     9.189       -         
+accumulator_5[11]                                   Net        -        -       0.585     -           3         
+accumulator_tmr3[11]                                DFN1C1     D        In      -         9.774       -         
+================================================================================================================
+Total path delay (propagation time + setup) of 10.394 is 6.483(62.4%) logic and 3.911(37.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.620
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.380
+
+    - Propagation time:                      9.760
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.381
+
+    Number of logic level(s):                7
+    Starting point:                          accumulator_tmr2[6] / Q
+    Ending point:                            accumulator[11] / D
+    The start point is clocked by            average|clk [rising] on pin CLK
+    The end   point is clocked by            average|clk [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                                Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+accumulator_tmr2[6]                                 DFN1C1     Q        Out     0.628     0.628       -         
+accumulator_tmr2[6]                                 Net        -        -       0.233     -           1         
+accumulator_maj[6]                                  MAJ3       B        In      -         0.861       -         
+accumulator_maj[6]                                  MAJ3       Y        Out     1.064     1.925       -         
+accumulator[6]                                      Net        -        -       0.585     -           3         
+un2_accumulator.ADD_12x12_medium_area_I6_S          XOR2       B        In      -         2.510       -         
+un2_accumulator.ADD_12x12_medium_area_I6_S          XOR2       Y        Out     1.013     3.523       -         
+un2_accumulator.N159                                Net        -        -       0.585     -           3         
+un2_accumulator.ADD_12x12_medium_area_I10_Y         NOR2B      B        In      -         4.107       -         
+un2_accumulator.ADD_12x12_medium_area_I10_Y         NOR2B      Y        Out     0.558     4.666       -         
+un2_accumulator.N186                                Net        -        -       0.280     -           2         
+un2_accumulator.ADD_12x12_medium_area_I19_Y_1       AO1        A        In      -         4.945       -         
+un2_accumulator.ADD_12x12_medium_area_I19_Y_1       AO1        Y        Out     0.562     5.507       -         
+un2_accumulator.ADD_12x12_medium_area_I19_Y_1       Net        -        -       0.233     -           1         
+un2_accumulator.ADD_12x12_medium_area_I19_Y         AO1        C        In      -         5.740       -         
+un2_accumulator.ADD_12x12_medium_area_I19_Y         AO1        Y        Out     0.709     6.449       -         
+un2_accumulator.N205                                Net        -        -       0.858     -           4         
+un2_accumulator.ADD_12x12_medium_area_I32_un1_Y     NOR3C      A        In      -         7.307       -         
+un2_accumulator.ADD_12x12_medium_area_I32_un1_Y     NOR3C      Y        Out     0.568     7.875       -         
+un2_accumulator.I32_un1_Y                           Net        -        -       0.233     -           1         
+un2_accumulator.accumulator_5[11]                   XA1        B        In      -         8.108       -         
+un2_accumulator.accumulator_5[11]                   XA1        Y        Out     1.068     9.176       -         
+accumulator_5[11]                                   Net        -        -       0.585     -           3         
+accumulator[11]                                     DFN1C1     D        In      -         9.760       -         
+================================================================================================================
+Total path delay (propagation time + setup) of 10.381 is 6.790(65.4%) logic and 3.591(34.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.620
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.380
+
+    - Propagation time:                      9.760
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.381
+
+    Number of logic level(s):                7
+    Starting point:                          accumulator_tmr2[6] / Q
+    Ending point:                            accumulator_tmr2[11] / D
+    The start point is clocked by            average|clk [rising] on pin CLK
+    The end   point is clocked by            average|clk [rising] on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                                Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+accumulator_tmr2[6]                                 DFN1C1     Q        Out     0.628     0.628       -         
+accumulator_tmr2[6]                                 Net        -        -       0.233     -           1         
+accumulator_maj[6]                                  MAJ3       B        In      -         0.861       -         
+accumulator_maj[6]                                  MAJ3       Y        Out     1.064     1.925       -         
+accumulator[6]                                      Net        -        -       0.585     -           3         
+un2_accumulator.ADD_12x12_medium_area_I6_S          XOR2       B        In      -         2.510       -         
+un2_accumulator.ADD_12x12_medium_area_I6_S          XOR2       Y        Out     1.013     3.523       -         
+un2_accumulator.N159                                Net        -        -       0.585     -           3         
+un2_accumulator.ADD_12x12_medium_area_I10_Y         NOR2B      B        In      -         4.107       -         
+un2_accumulator.ADD_12x12_medium_area_I10_Y         NOR2B      Y        Out     0.558     4.666       -         
+un2_accumulator.N186                                Net        -        -       0.280     -           2         
+un2_accumulator.ADD_12x12_medium_area_I19_Y_1       AO1        A        In      -         4.945       -         
+un2_accumulator.ADD_12x12_medium_area_I19_Y_1       AO1        Y        Out     0.562     5.507       -         
+un2_accumulator.ADD_12x12_medium_area_I19_Y_1       Net        -        -       0.233     -           1         
+un2_accumulator.ADD_12x12_medium_area_I19_Y         AO1        C        In      -         5.740       -         
+un2_accumulator.ADD_12x12_medium_area_I19_Y         AO1        Y        Out     0.709     6.449       -         
+un2_accumulator.N205                                Net        -        -       0.858     -           4         
+un2_accumulator.ADD_12x12_medium_area_I32_un1_Y     NOR3C      A        In      -         7.307       -         
+un2_accumulator.ADD_12x12_medium_area_I32_un1_Y     NOR3C      Y        Out     0.568     7.875       -         
+un2_accumulator.I32_un1_Y                           Net        -        -       0.233     -           1         
+un2_accumulator.accumulator_5[11]                   XA1        B        In      -         8.108       -         
+un2_accumulator.accumulator_5[11]                   XA1        Y        Out     1.068     9.176       -         
+accumulator_5[11]                                   Net        -        -       0.585     -           3         
+accumulator_tmr2[11]                                DFN1C1     D        In      -         9.760       -         
+================================================================================================================
+Total path delay (propagation time + setup) of 10.381 is 6.790(65.4%) logic and 3.591(34.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+--------------------------------------------------------------------------------
+Target Part: RT3PE3000L_LGA484_STD
+Report for cell average.rtl
+  Core Cell usage:
+              cell count     area count*area
+               AO1     7      1.0        7.0
+             AOI1B     1      1.0        1.0
+              AX1C     1      1.0        1.0
+             AXOI7     1      1.0        1.0
+               GND     1      0.0        0.0
+              MAJ3    32      1.0       32.0
+               MX2    13      1.0       13.0
+              NOR2     3      1.0        3.0
+             NOR2A     1      1.0        1.0
+             NOR2B    15      1.0       15.0
+             NOR3A     1      1.0        1.0
+             NOR3C     2      1.0        2.0
+               VCC     1      0.0        0.0
+               XA1    14      1.0       14.0
+              XOR2     6      1.0        6.0
+              XOR3     1      1.0        1.0
+
+
+              DFN1    18      1.0       18.0
+            DFN1C1    66      1.0       66.0
+                   -----          ----------
+             TOTAL   184               182.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF     9
+            OUTBUF    14
+                   -----
+             TOTAL    25
+
+
+Core Cells         : 182 of 75264 (0%)
+IO Cells           : 25
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 112 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 112MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Dec 01 19:43:21 2020
+
+###########################################################]

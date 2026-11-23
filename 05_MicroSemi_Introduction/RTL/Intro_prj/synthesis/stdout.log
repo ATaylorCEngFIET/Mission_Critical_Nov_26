@@ -1,0 +1,171 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    DESKTOP-L3OMJC1
+Date:        Tue Dec 01 18:54:15 2020
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro average_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+Your license will expire in 1 days!
+
+Implementation not found: synthesis
+TCL script complete: "average_syn.tcl"
+New HDL Analyst: enabled
+log file: "C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\average.srr"
+Running: synthesis in foreground
+
+Running average_syn|synthesis
+
+Running: compile (Compile) on average_syn|synthesis
+# Tue Dec 01 18:59:06 2020
+
+Running: compile_flow (Compile Process) on average_syn|synthesis
+# Tue Dec 01 18:59:06 2020
+
+Running: compiler (Compile Input) on average_syn|synthesis
+# Tue Dec 01 18:59:06 2020
+Copied C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\synwork\average_comp.srs to C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\average.srs
+
+compiler completed
+# Tue Dec 01 18:59:07 2020
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on average_syn|synthesis
+# Tue Dec 01 18:59:07 2020
+
+multi_srs_gen completed
+# Tue Dec 01 18:59:08 2020
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\synwork\average_mult.srs to C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\average.srs
+Complete: Compile Process on average_syn|synthesis
+
+Running: premap (Pre-mapping) on average_syn|synthesis
+# Tue Dec 01 18:59:08 2020
+
+premap completed with warnings
+# Tue Dec 01 18:59:09 2020
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on average_syn|synthesis
+
+Running: map (Map) on average_syn|synthesis
+# Tue Dec 01 18:59:09 2020
+
+Running: fpga_mapper (Map & Optimize) on average_syn|synthesis
+# Tue Dec 01 18:59:09 2020
+Copied C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\synwork\average_m.srm to C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\average.srm
+
+fpga_mapper completed with warnings
+# Tue Dec 01 18:59:12 2020
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Map on average_syn|synthesis
+Complete: Logic Synthesis on average_syn|synthesis
+Note: Opening local project RTL file 'C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\average.srs'
+Note: Opening local project RTL file 'C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\average.srs'
+Loaded XDM (Hierarchy) data base - elapsed time 0:0 Blocks=1
+@N Implementation 'C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\average_syn.prj|synthesis' design hierarchy loaded from database
+Copied C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\average.srr to C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\backup\average.srr
+log file: "C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\average.srr"
+Running: constraint_check in foreground
+
+
+Running: constraint_check (Constraint Check) on average_syn|synthesis
+# Tue Dec 01 19:16:58 2020
+
+Running: compile (Compile) on average_syn|synthesis
+# Tue Dec 01 19:16:58 2020
+
+Running: compile_flow (Compile Process) on average_syn|synthesis
+# Tue Dec 01 19:16:58 2020
+
+Running: compiler (Compile Input) on average_syn|synthesis
+# Tue Dec 01 19:16:58 2020
+
+compiler completed
+# Tue Dec 01 19:16:58 2020
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Running: multi_srs_gen (Multi-srs Generator) on average_syn|synthesis
+# Tue Dec 01 19:16:58 2020
+Up-To-Date: multi_srs_gen. No run necessary
+Complete: Compile Process on average_syn|synthesis
+
+Running: premap (Pre-mapping) on average_syn|synthesis
+# Tue Dec 01 19:16:58 2020
+
+constraint_check_job Completed with warnings
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on average_syn|synthesis
+Complete: Constraint Check on average_syn|synthesis
+log file: "C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\average.srr"
+Running: synthesis in foreground
+
+Running average_syn|synthesis
+
+Running: compile (Compile) on average_syn|synthesis
+# Tue Dec 01 19:43:19 2020
+
+Running: compile_flow (Compile Process) on average_syn|synthesis
+# Tue Dec 01 19:43:19 2020
+
+Running: compiler (Compile Input) on average_syn|synthesis
+# Tue Dec 01 19:43:19 2020
+
+compiler completed
+# Tue Dec 01 19:43:20 2020
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on average_syn|synthesis
+# Tue Dec 01 19:43:20 2020
+Up-To-Date: multi_srs_gen. No run necessary
+Complete: Compile Process on average_syn|synthesis
+
+Running: premap (Pre-mapping) on average_syn|synthesis
+# Tue Dec 01 19:43:20 2020
+
+premap completed with warnings
+# Tue Dec 01 19:43:20 2020
+
+Return Code: 1
+Run Time:00h:00m:00s
+Complete: Compile on average_syn|synthesis
+
+Running: map (Map) on average_syn|synthesis
+# Tue Dec 01 19:43:20 2020
+
+Running: fpga_mapper (Map & Optimize) on average_syn|synthesis
+# Tue Dec 01 19:43:20 2020
+Copied C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\synwork\average_m.srm to C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\average.srm
+
+fpga_mapper completed with warnings
+# Tue Dec 01 19:43:21 2020
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Map on average_syn|synthesis
+Complete: Logic Synthesis on average_syn|synthesis
+Note: Opening local project RTL file 'C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\average.srs'
+exit status=0
+License checkin: synplifypro_actel

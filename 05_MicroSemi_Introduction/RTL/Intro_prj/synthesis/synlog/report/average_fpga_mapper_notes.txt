@@ -1,0 +1,8 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"c:\users\aptay\dropbox\adiuvo\mission_critical_course\06_microsemi_introduction\rtl\intro_prj\hdl\block_average.vhd":36:4:36:5|Found counter in view:work.average(rtl) instance counter[4:0] 
+@N: MF176 |Default generator successful 
+@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
+@N: FP130 |Promoting Net rst_c on CLKBUF  rst_pad 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

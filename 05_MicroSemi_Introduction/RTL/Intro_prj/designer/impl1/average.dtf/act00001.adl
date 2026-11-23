@@ -1,0 +1,867 @@
+; HEADER
+; FILEID ADL C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\designer\impl1\average.dtf\netlist.adl e1a69580
+; CHECKSUM e1a69580
+; ASC 64bd6490
+; PROGRAM Microsemi Libero Software
+; VERSION v11.9 SP5 11.9.5.5
+; ALSMAJORREV 11
+; ALSMINORREV 9
+; ALSPATCHREV 5
+; VAR DESIGN average
+; VAR FAM ProASIC3L
+; VAR FAMILY PA3LDP
+; VAR DIE RTIT14X14M4LDP
+; VAR PACKAGE cg484
+; VAR IFIKEEPER <NOT-SET>
+; VAR RESTRICTTRSTPIN YES
+; VAR UNCLAMP_UNUSED_IOS 0
+; VAR RESERVE_PROGRAMMING_PINS 1
+; VAR RESTRICTPROBEPINS 1
+; VAR RESTRICTJTAGPINS YES
+; VAR SPEED STD
+; VAR TEMPR MIL
+; VAR VOLTR MIL
+; VAR SI_SECURITY_KEY 
+; VAR SIG 
+; VAR FUSCHECKSUM <NOT-SET>
+; VAR PROGSECFUSE <NOT-SET>
+; VAR PINCHECKSUM <NOT-SET>
+; VAR ACT1_special_IO_pins_used NO
+; VAR AXPROGRAMMING_USE_UMA <NOT-SET>
+; ENDHEADER
+DEF 'ADLIB:OUTBUF_H'; D, PAD; EQN0:PAD=D, LEVEL:SOFT, CLS_TYPE:HARD, 
+  CLS_CATEGORY:IO.
+PIN PAD; PAD, PADDIR:OUT.
+USE ADLIB:IOTRI_OB_EB; U1; PRESERVE.
+USE ADLIB:IOPAD_TRI; U0; CLS_XY:0%0, PRESERVE.
+NET PAD;  PAD, U0:PAD; HARDWIRED:PAD.
+NET NET1;  U0:D, U1:DOUT; HARDWIRED:PADIN.
+NET NET2;  U0:E, U1:EOUT; HARDWIRED:PADEN.
+NET D;  D, U1:D.
+NET VCC;  U1:E; GLOBAL, POWER:VCC.
+END.
+DEF 'ADLIB:INBUF_H'; PAD, Y; EQN0:PAD=Y, LEVEL:SOFT, CLS_TYPE:HARD, 
+  CLS_CATEGORY:IO.
+PIN PAD; PAD, PADDIR:IN.
+PIN Y; OUT.
+USE ADLIB:IOIN_IB; U1; PRESERVE.
+USE ADLIB:IOPAD_IN; U0; CLS_XY:0%0, PRESERVE.
+NET PAD;  PAD, U0:PAD; HARDWIRED:PAD.
+NET NET1;  U0:Y, U1:YIN; HARDWIRED:PADOUT.
+NET Y;  Y, U1:Y.
+END.
+DEF 'ADLIB:GND'; Y; LEVEL:SOFT.
+NET Y;  Y; POWER:GND.
+END.
+DEF 'ADLIB:VCC'; Y; LEVEL:SOFT.
+NET Y;  Y; POWER:VCC.
+END.
+DEF 'ADLIB:CLKBUF_H'; PAD, Y; LEVEL:SOFT, CLS_TYPE:HARD, 
+  CLS_CATEGORY:IOGLB.
+PIN PAD; PAD, PADDIR:IN.
+PIN Y; OUT.
+USE ADLIB:IO_UNUSED; U2; PRESERVE.
+USE ADLIB:CLKIO; U1; PRESERVE.
+USE ADLIB:IOPAD_IN; U0; CLS_XY:0%0, PRESERVE.
+NET PAD;  PAD, U0:PAD; HARDWIRED:PAD.
+NET NET1;  U1:A, U0:Y, U2:YIN; HARDWIRED:PADOUT.
+NET NET2;  Y, U1:Y.
+END.
+DEF average; clk, rst, empty, data_in<7>, data_in<6>, data_in<5>, 
+  data_in<4>, data_in<3>, data_in<2>, data_in<1>, data_in<0>, 
+  read, valid, result<11>, result<10>, result<9>, result<8>, 
+  result<7>, result<6>, result<5>, result<4>, result<3>, 
+  result<2>, result<1>, result<0>; BUSFORMAT:%s<%d>, 
+  NEW_TRANSLATE.
+PIN clk; DIRECTION:INPUT.
+PIN rst; DIRECTION:INPUT.
+PIN empty; DIRECTION:INPUT.
+PIN data_in<7>; DIRECTION:INPUT, ORIGNAME:data_in, BUSINFO:
+  0/7/0/1.
+PIN data_in<6>; DIRECTION:INPUT, ORIGNAME:data_in, BUSINFO:
+  1/7/0/1.
+PIN data_in<5>; DIRECTION:INPUT, ORIGNAME:data_in, BUSINFO:
+  2/7/0/1.
+PIN data_in<4>; DIRECTION:INPUT, ORIGNAME:data_in, BUSINFO:
+  3/7/0/1.
+PIN data_in<3>; DIRECTION:INPUT, ORIGNAME:data_in, BUSINFO:
+  4/7/0/1.
+PIN data_in<2>; DIRECTION:INPUT, ORIGNAME:data_in, BUSINFO:
+  5/7/0/1.
+PIN data_in<1>; DIRECTION:INPUT, ORIGNAME:data_in, BUSINFO:
+  6/7/0/1.
+PIN data_in<0>; DIRECTION:INPUT, ORIGNAME:data_in, BUSINFO:
+  7/7/0/1.
+PIN read; DIRECTION:OUTPUT.
+PIN valid; DIRECTION:OUTPUT.
+PIN result<11>; DIRECTION:OUTPUT, ORIGNAME:result, BUSINFO:
+  0/11/0/1.
+PIN result<10>; DIRECTION:OUTPUT, ORIGNAME:result, BUSINFO:
+  1/11/0/1.
+PIN result<9>; DIRECTION:OUTPUT, ORIGNAME:result, BUSINFO:
+  2/11/0/1.
+PIN result<8>; DIRECTION:OUTPUT, ORIGNAME:result, BUSINFO:
+  3/11/0/1.
+PIN result<7>; DIRECTION:OUTPUT, ORIGNAME:result, BUSINFO:
+  4/11/0/1.
+PIN result<6>; DIRECTION:OUTPUT, ORIGNAME:result, BUSINFO:
+  5/11/0/1.
+PIN result<5>; DIRECTION:OUTPUT, ORIGNAME:result, BUSINFO:
+  6/11/0/1.
+PIN result<4>; DIRECTION:OUTPUT, ORIGNAME:result, BUSINFO:
+  7/11/0/1.
+PIN result<3>; DIRECTION:OUTPUT, ORIGNAME:result, BUSINFO:
+  8/11/0/1.
+PIN result<2>; DIRECTION:OUTPUT, ORIGNAME:result, BUSINFO:
+  9/11/0/1.
+PIN result<1>; DIRECTION:OUTPUT, ORIGNAME:result, BUSINFO:
+  10/11/0/1.
+PIN result<0>; DIRECTION:OUTPUT, ORIGNAME:result, BUSINFO:
+  11/11/0/1.
+USE ADLIB:DFN1C1; output[9].
+USE ADLIB:DFN1C1; output_tmr3[10].
+USE ADLIB:DFN1C1; output_tmr2[9].
+USE ADLIB:DFN1C1; output[15].
+USE ADLIB:NOR3C; un2_accumulator_ADD_12x12_medium_area_I32_un1_Y.
+USE ADLIB:DFN1C1; output_tmr2[12].
+USE ADLIB:DFN1C1; accumulator[11].
+USE ADLIB:MAJ3; accumulator_maj[4].
+USE ADLIB:DFN1C1; accumulator_tmr2[2].
+USE ADLIB:DFN1C1; accumulator[7].
+USE ADLIB:MX2; un2_accumulator_output_9.
+USE ADLIB:NOR2; un2_accumulator_un3_empty_1.
+USE ADLIB:OUTBUF; result_pad[9].
+USE ADLIB:DFN1C1; output_tmr3[8].
+USE ADLIB:DFN1; rd_int_del.
+USE ADLIB:XA1; un2_accumulator_accumulator_5[11].
+USE ADLIB:MAJ3; counter_maj[4].
+USE ADLIB:MAJ3; un2_accumulator_ADD_12x12_medium_area_I19_Y_0.
+USE ADLIB:MX2; un2_accumulator_counter_e2.
+USE ADLIB:NOR3C; un2_accumulator_valid_0_sqmuxa_1.
+USE ADLIB:NOR3A; un2_accumulator_un3_empty_2.
+USE ADLIB:XOR2; un2_accumulator_ADD_12x12_medium_area_I7_S.
+USE ADLIB:MAJ3; accumulator_maj[3].
+USE ADLIB:NOR2B; 
+  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0.
+USE ADLIB:DFN1; counter_tmr3[1].
+USE ADLIB:AO1; un2_accumulator_ADD_12x12_medium_area_I18_Y.
+USE ADLIB:NOR2B; un2_accumulator_ADD_12x12_medium_area_I6_CO1.
+USE ADLIB:INBUF; data_in_pad[1].
+USE ADLIB:NOR2B; un2_accumulator_ADD_12x12_medium_area_I2_CO1.
+USE ADLIB:DFN1C1; output_tmr3[15].
+USE ADLIB:MX2; un2_accumulator_output_6.
+USE ADLIB:MAJ3; output_maj[10].
+USE ADLIB:AXOI7; un2_accumulator_counter_e0.
+USE ADLIB:XA1; un2_accumulator_counter_n2.
+USE ADLIB:NOR2B; un2_accumulator_accumulator_5[1].
+USE ADLIB:OUTBUF; result_pad[1].
+USE ADLIB:DFN1; counter[3].
+USE ADLIB:DFN1; counter[2].
+USE ADLIB:DFN1C1; accumulator[2].
+USE ADLIB:NOR2B; un2_accumulator_ADD_12x12_medium_area_I0_CO1.
+USE ADLIB:AO1; un2_accumulator_ADD_12x12_medium_area_I35_Y.
+USE ADLIB:OUTBUF; read_pad.
+USE ADLIB:DFN1C1; output[11].
+USE ADLIB:DFN1C1; accumulator_tmr2[9].
+USE ADLIB:DFN1; rd_int_del_tmr2.
+USE ADLIB:DFN1C1; accumulator_tmr2[10].
+USE ADLIB:XA1; un2_accumulator_accumulator_5[0].
+USE ADLIB:MX2; un2_accumulator_rd_int_del_10.
+USE ADLIB:DFN1; rd_int_del_tmr3.
+USE ADLIB:MAJ3; counter_maj[3].
+USE ADLIB:DFN1C1; output_tmr2[14].
+USE ADLIB:DFN1C1; accumulator_tmr2[8].
+USE ADLIB:DFN1; counter[4].
+USE ADLIB:INBUF; data_in_pad[2].
+USE ADLIB:MAJ3; un2_accumulator_ADD_12x12_medium_area_I18_Y_0.
+USE ADLIB:DFN1C1; accumulator[10].
+USE ADLIB:NOR2B; 
+  un2_accumulator_ADD_12x12_medium_area_I18_un1_Y_0.
+USE ADLIB:GND; GND_i.
+USE ADLIB:MX2; un2_accumulator_output_7.
+USE ADLIB:DFN1C1; accumulator_tmr2[11].
+USE ADLIB:DFN1C1; accumulator_tmr3[0].
+USE ADLIB:NOR2B; un2_accumulator_counter_c2.
+USE ADLIB:DFN1C1; accumulator_tmr3[2].
+USE ADLIB:XOR2; un2_accumulator_ADD_12x12_medium_area_I6_S.
+USE ADLIB:DFN1C1; output_tmr3[13].
+USE ADLIB:OUTBUF; result_pad[5].
+USE ADLIB:DFN1C1; output_tmr2[8].
+USE ADLIB:NOR2; un2_accumulator_rd_int_4_i.
+USE ADLIB:DFN1C1; accumulator[8].
+USE ADLIB:DFN1C1; output_tmr3[11].
+USE ADLIB:INBUF; data_in_pad[5].
+USE ADLIB:DFN1C1; accumulator_tmr3[9].
+USE ADLIB:DFN1C1; accumulator_tmr2[1].
+USE ADLIB:DFN1C1; accumulator_tmr3[6].
+USE ADLIB:NOR2B; un2_accumulator_ADD_12x12_medium_area_I10_Y.
+USE ADLIB:DFN1C1; accumulator[3].
+USE ADLIB:INBUF; data_in_pad[6].
+USE ADLIB:INBUF; data_in_pad[3].
+USE ADLIB:MAJ3; un2_accumulator_ADD_12x12_medium_area_I11_Y.
+USE ADLIB:MX2; un2_accumulator_output_4.
+USE ADLIB:DFN1C1; output_tmr2[10].
+USE ADLIB:MAJ3; output_maj[13].
+USE ADLIB:VCC; VCC_i.
+USE ADLIB:DFN1C1; output_tmr3[9].
+USE ADLIB:MAJ3; counter_maj[1].
+USE ADLIB:DFN1; counter[1].
+USE ADLIB:AOI1B; un2_accumulator_valid_1_sqmuxa_1.
+USE ADLIB:MAJ3; output_maj[15].
+USE ADLIB:MAJ3; valid_maj.
+USE ADLIB:DFN1C1; accumulator_tmr3[3].
+USE ADLIB:MAJ3; accumulator_maj[1].
+USE ADLIB:MAJ3; accumulator_maj[11].
+USE ADLIB:MAJ3; output_maj[8].
+USE ADLIB:DFN1C1; output_tmr2[15].
+USE ADLIB:INBUF; data_in_pad[4].
+USE ADLIB:NOR2; un2_accumulator_rd_int_del_0_sqmuxa.
+USE ADLIB:MX2; un2_accumulator_output_3.
+USE ADLIB:DFN1C1; accumulator[5].
+USE ADLIB:DFN1C1; rd_int_tmr2.
+USE ADLIB:NOR2A; un2_accumulator_valid_0_sqmuxa.
+USE ADLIB:OUTBUF; result_pad[2].
+USE ADLIB:DFN1C1; output[8].
+USE ADLIB:DFN1; counter_tmr3[4].
+USE ADLIB:MAJ3; accumulator_maj[9].
+USE ADLIB:XOR2; un2_accumulator_ADD_12x12_medium_area_I5_S.
+USE ADLIB:DFN1C1; rd_int_tmr3.
+USE ADLIB:DFN1; counter_tmr3[0].
+USE ADLIB:DFN1C1; accumulator_tmr3[10].
+USE ADLIB:OUTBUF; result_pad[7].
+USE ADLIB:DFN1C1; output[13].
+USE ADLIB:DFN1C1; accumulator_tmr2[6].
+USE ADLIB:MX2; un2_accumulator_counter_e1.
+USE ADLIB:NOR2B; un2_accumulator_ADD_12x12_medium_area_I4_CO1.
+USE ADLIB:DFN1C1; output[14].
+USE ADLIB:DFN1C1; accumulator_tmr2[5].
+USE ADLIB:OUTBUF; result_pad[0].
+USE ADLIB:MX2; un2_accumulator_output_2.
+USE ADLIB:XA1; un2_accumulator_accumulator_5[8].
+USE ADLIB:XA1; un2_accumulator_accumulator_5[4].
+USE ADLIB:OUTBUF; result_pad[6].
+USE ADLIB:OUTBUF; valid_pad.
+USE ADLIB:MX2; un2_accumulator_counter_e4.
+USE ADLIB:NOR2B; un2_accumulator_ADD_12x12_medium_area_I12_Y.
+USE ADLIB:CLKBUF; clk_pad.
+USE ADLIB:MAJ3; un2_accumulator_ADD_12x12_medium_area_I15_Y.
+USE ADLIB:XA1; un2_accumulator_accumulator_5[2].
+USE ADLIB:XA1; un2_accumulator_counter_n1.
+USE ADLIB:DFN1C1; output_tmr2[13].
+USE ADLIB:DFN1C1; accumulator[9].
+USE ADLIB:DFN1C1; accumulator_tmr3[4].
+USE ADLIB:INBUF; empty_pad.
+USE ADLIB:DFN1C1; accumulator_tmr3[11].
+USE ADLIB:DFN1C1; output_tmr2[11].
+USE ADLIB:XA1; un2_accumulator_accumulator_5[3].
+USE ADLIB:XA1; un2_accumulator_counter_n4.
+USE ADLIB:OUTBUF; result_pad[3].
+USE ADLIB:DFN1; counter_tmr2[4].
+USE ADLIB:NOR2B; un2_accumulator_counter_19_0.
+USE ADLIB:MX2; un2_accumulator_output_5.
+USE ADLIB:MX2; un2_accumulator_counter_e3.
+USE ADLIB:MAJ3; rd_int_maj.
+USE ADLIB:OUTBUF; result_pad[11].
+USE ADLIB:AO1; un2_accumulator_ADD_12x12_medium_area_I36_Y.
+USE ADLIB:OUTBUF; result_pad[8].
+USE ADLIB:XOR2; un2_accumulator_ADD_12x12_medium_area_I3_S.
+USE ADLIB:DFN1C1; accumulator[0].
+USE ADLIB:DFN1C1; valid_tmr3.
+USE ADLIB:XA1; un2_accumulator_accumulator_5[6].
+USE ADLIB:OUTBUF; result_pad[10].
+USE ADLIB:DFN1C1; output_tmr3[12].
+USE ADLIB:OUTBUF; result_pad[4].
+USE ADLIB:DFN1C1; accumulator[6].
+USE ADLIB:MAJ3; accumulator_maj[7].
+USE ADLIB:XA1; un2_accumulator_counter_n3.
+USE ADLIB:DFN1; counter_tmr2[3].
+USE ADLIB:XA1; un2_accumulator_accumulator_5[5].
+USE ADLIB:INBUF; data_in_pad[0].
+USE ADLIB:DFN1C1; output[10].
+USE ADLIB:MAJ3; accumulator_maj[6].
+USE ADLIB:AX1C; un2_accumulator_ADD_12x12_medium_area_I46_Y.
+USE ADLIB:NOR2B; un2_accumulator_counter_c1.
+USE ADLIB:AO1; un2_accumulator_ADD_12x12_medium_area_I19_Y.
+USE ADLIB:MAJ3; output_maj[12].
+USE ADLIB:NOR2B; un2_accumulator_ADD_12x12_medium_area_I33_un1_Y.
+USE ADLIB:DFN1C1; accumulator_tmr2[0].
+USE ADLIB:DFN1; counter_tmr3[3].
+USE ADLIB:DFN1C1; accumulator_tmr3[5].
+USE ADLIB:DFN1C1; accumulator_tmr3[1].
+USE ADLIB:DFN1; counter_tmr2[2].
+USE ADLIB:MAJ3; output_maj[9].
+USE ADLIB:DFN1C1; accumulator_tmr2[4].
+USE ADLIB:DFN1C1; output[12].
+USE ADLIB:DFN1C1; accumulator_tmr2[3].
+USE ADLIB:MAJ3; accumulator_maj[0].
+USE ADLIB:NOR2B; un2_accumulator_ADD_12x12_medium_area_I24_Y_0.
+USE ADLIB:AO1; un2_accumulator_ADD_12x12_medium_area_I19_Y_1.
+USE ADLIB:INBUF; data_in_pad[7].
+USE ADLIB:XA1; un2_accumulator_accumulator_5[7].
+USE ADLIB:MAJ3; counter_maj[2].
+USE ADLIB:DFN1; counter_tmr2[0].
+USE ADLIB:XOR2; un2_accumulator_ADD_12x12_medium_area_I2_S.
+USE ADLIB:MAJ3; output_maj[11].
+USE ADLIB:XOR3; un2_accumulator_ADD_12x12_medium_area_I37_Y.
+USE ADLIB:DFN1C1; accumulator_tmr2[7].
+USE ADLIB:DFN1C1; valid_tmr2.
+USE ADLIB:MAJ3; accumulator_maj[10].
+USE ADLIB:DFN1C1; output_tmr3[14].
+USE ADLIB:DFN1C1; accumulator[4].
+USE ADLIB:MAJ3; accumulator_maj[2].
+USE ADLIB:DFN1C1; accumulator[1].
+USE ADLIB:MAJ3; rd_int_del_maj.
+USE ADLIB:DFN1; counter_tmr2[1].
+USE ADLIB:AO1; un2_accumulator_ADD_12x12_medium_area_I31_Y.
+USE ADLIB:XA1; un2_accumulator_accumulator_5[9].
+USE ADLIB:CLKBUF; rst_pad.
+USE ADLIB:DFN1C1; accumulator_tmr3[7].
+USE ADLIB:MAJ3; accumulator_maj[5].
+USE ADLIB:NOR2B; un2_accumulator_accumulator_5[10].
+USE ADLIB:DFN1C1; rd_int.
+USE ADLIB:DFN1C1; valid.
+USE ADLIB:MAJ3; output_maj[14].
+USE ADLIB:XOR2; un2_accumulator_ADD_12x12_medium_area_I4_S.
+USE ADLIB:AO1; un2_accumulator_ADD_12x12_medium_area_I34_Y.
+USE ADLIB:MX2; un2_accumulator_output_8.
+USE ADLIB:DFN1; counter_tmr3[2].
+USE ADLIB:MAJ3; accumulator_maj[8].
+USE ADLIB:MAJ3; counter_maj[0].
+USE ADLIB:DFN1C1; accumulator_tmr3[8].
+USE ADLIB:DFN1; counter[0].
+NET valid_0_sqmuxa_1;  un2_accumulator_rd_int_4_i:B, 
+  un2_accumulator_output_8:S, valid:D, valid_tmr2:D, valid_tmr3:D, 
+  un2_accumulator_output_5:S, un2_accumulator_output_2:S, 
+  un2_accumulator_output_3:S, un2_accumulator_output_4:S, 
+  un2_accumulator_output_9:S, un2_accumulator_output_7:S, 
+  un2_accumulator_output_6:S, un2_accumulator_valid_0_sqmuxa_1:Y.
+NET accumulator_5[0];  accumulator_tmr3[0]:D, accumulator_tmr2[0]:
+  D, accumulator[0]:D, un2_accumulator_accumulator_5[0]:Y.
+NET accumulator_5[1];  accumulator_tmr2[1]:D, accumulator[1]:D, 
+  accumulator_tmr3[1]:D, un2_accumulator_accumulator_5[1]:Y.
+NET accumulator_5[2];  accumulator_tmr2[2]:D, 
+  un2_accumulator_accumulator_5[2]:Y, accumulator_tmr3[2]:D, 
+  accumulator[2]:D.
+NET accumulator_5[3];  accumulator[3]:D, accumulator_tmr2[3]:D, 
+  un2_accumulator_accumulator_5[3]:Y, accumulator_tmr3[3]:D.
+NET accumulator_5[4];  accumulator_tmr3[4]:D, accumulator[4]:D, 
+  accumulator_tmr2[4]:D, un2_accumulator_accumulator_5[4]:Y.
+NET accumulator_5[5];  accumulator[5]:D, accumulator_tmr3[5]:D, 
+  un2_accumulator_accumulator_5[5]:Y, accumulator_tmr2[5]:D.
+NET accumulator_5[6];  accumulator_tmr3[6]:D, accumulator[6]:D, 
+  un2_accumulator_accumulator_5[6]:Y, accumulator_tmr2[6]:D.
+NET accumulator_5[7];  accumulator[7]:D, accumulator_tmr3[7]:D, 
+  accumulator_tmr2[7]:D, un2_accumulator_accumulator_5[7]:Y.
+NET accumulator_5[8];  accumulator_tmr2[8]:D, accumulator_tmr3[8]:
+  D, un2_accumulator_accumulator_5[8]:Y, accumulator[8]:D.
+NET accumulator_5[9];  accumulator_tmr2[9]:D, 
+  un2_accumulator_accumulator_5[9]:Y, accumulator[9]:D, 
+  accumulator_tmr3[9]:D.
+NET accumulator_5[10];  accumulator_tmr2[10]:D, 
+  un2_accumulator_accumulator_5[10]:Y, accumulator_tmr3[10]:D, 
+  accumulator[10]:D.
+NET accumulator_5[11];  accumulator[11]:D, accumulator_tmr3[11]:D, 
+  accumulator_tmr2[11]:D, un2_accumulator_accumulator_5[11]:Y.
+NET rd_int_4_i;  rd_int_tmr2:D, rd_int:D, rd_int_tmr3:D, 
+  un2_accumulator_rd_int_4_i:Y.
+NET output_2;  output_tmr3[8]:D, un2_accumulator_output_2:Y, 
+  output[8]:D, output_tmr2[8]:D.
+NET output_3;  output[9]:D, un2_accumulator_output_3:Y, 
+  output_tmr3[9]:D, output_tmr2[9]:D.
+NET output_4;  output_tmr3[10]:D, output[10]:D, output_tmr2[10]:D, 
+  un2_accumulator_output_4:Y.
+NET output_5;  output[11]:D, un2_accumulator_output_5:Y, 
+  output_tmr2[11]:D, output_tmr3[11]:D.
+NET output_6;  output_tmr2[12]:D, output[12]:D, output_tmr3[12]:D, 
+  un2_accumulator_output_6:Y.
+NET output_7;  output_tmr3[13]:D, output_tmr2[13]:D, output[13]:D, 
+  un2_accumulator_output_7:Y.
+NET output_8;  output_tmr2[14]:D, un2_accumulator_output_8:Y, 
+  output_tmr3[14]:D, output[14]:D.
+NET output_9;  output[15]:D, output_tmr2[15]:D, output_tmr3[15]:D, 
+  un2_accumulator_output_9:Y.
+NET rd_int_del_10;  rd_int_del:D, rd_int_del_tmr3:D, 
+  un2_accumulator_rd_int_del_10:Y, rd_int_del_tmr2:D.
+NET counter_e0;  counter_tmr3[0]:D, counter[0]:D, counter_tmr2[0]:
+  D, un2_accumulator_counter_e0:Y.
+NET counter_e1;  counter_tmr3[1]:D, counter_tmr2[1]:D, 
+  un2_accumulator_counter_e1:Y, counter[1]:D.
+NET counter_e2;  counter[2]:D, counter_tmr3[2]:D, counter_tmr2[2]:
+  D, un2_accumulator_counter_e2:Y.
+NET counter_e3;  counter[3]:D, counter_tmr3[3]:D, counter_tmr2[3]:
+  D, un2_accumulator_counter_e3:Y.
+NET counter_e4;  counter[4]:D, counter_tmr2[4]:D, 
+  un2_accumulator_counter_e4:Y, counter_tmr3[4]:D.
+NET VCC;  VCC_i:Y.
+NET clk_c;  output[9]:CLK, counter[0]:CLK, accumulator_tmr3[8]:
+  CLK, counter_tmr3[2]:CLK, valid:CLK, rd_int:CLK, 
+  accumulator_tmr3[7]:CLK, counter_tmr2[1]:CLK, accumulator[1]:
+  CLK, accumulator[4]:CLK, output_tmr3[14]:CLK, valid_tmr2:CLK, 
+  accumulator_tmr2[7]:CLK, counter_tmr2[0]:CLK, 
+  accumulator_tmr2[3]:CLK, output[12]:CLK, accumulator_tmr2[4]:
+  CLK, counter_tmr2[2]:CLK, accumulator_tmr3[1]:CLK, 
+  accumulator_tmr3[5]:CLK, counter_tmr3[3]:CLK, 
+  accumulator_tmr2[0]:CLK, output[10]:CLK, counter_tmr2[3]:CLK, 
+  accumulator[6]:CLK, output_tmr3[12]:CLK, valid_tmr3:CLK, 
+  accumulator[0]:CLK, counter_tmr2[4]:CLK, output_tmr2[11]:CLK, 
+  accumulator_tmr3[11]:CLK, accumulator_tmr3[4]:CLK, 
+  accumulator[9]:CLK, output_tmr2[13]:CLK, clk_pad:Y, 
+  accumulator_tmr2[5]:CLK, output[14]:CLK, accumulator_tmr2[6]:
+  CLK, output[13]:CLK, accumulator_tmr3[10]:CLK, counter_tmr3[0]:
+  CLK, rd_int_tmr3:CLK, counter_tmr3[4]:CLK, output[8]:CLK, 
+  rd_int_tmr2:CLK, accumulator[5]:CLK, output_tmr2[15]:CLK, 
+  accumulator_tmr3[3]:CLK, counter[1]:CLK, output_tmr3[9]:CLK, 
+  output_tmr2[10]:CLK, accumulator[3]:CLK, accumulator_tmr3[6]:
+  CLK, accumulator_tmr2[1]:CLK, accumulator_tmr3[9]:CLK, 
+  output_tmr3[11]:CLK, accumulator[8]:CLK, output_tmr2[8]:CLK, 
+  output_tmr3[13]:CLK, accumulator_tmr3[2]:CLK, 
+  accumulator_tmr3[0]:CLK, accumulator_tmr2[11]:CLK, 
+  accumulator[10]:CLK, counter[4]:CLK, accumulator_tmr2[8]:CLK, 
+  output_tmr2[14]:CLK, rd_int_del_tmr3:CLK, accumulator_tmr2[10]:
+  CLK, rd_int_del_tmr2:CLK, accumulator_tmr2[9]:CLK, output[11]:
+  CLK, accumulator[2]:CLK, counter[2]:CLK, counter[3]:CLK, 
+  output_tmr3[15]:CLK, counter_tmr3[1]:CLK, rd_int_del:CLK, 
+  output_tmr3[8]:CLK, accumulator[7]:CLK, accumulator_tmr2[2]:CLK, 
+  accumulator[11]:CLK, output_tmr2[12]:CLK, output[15]:CLK, 
+  output_tmr2[9]:CLK, output_tmr3[10]:CLK.
+NET clk;  clk, clk_pad:PAD.
+NET rst_c;  un2_accumulator_counter_e0:B, accumulator_tmr3[8]:CLR, 
+  valid:CLR, rd_int:CLR, accumulator_tmr3[7]:CLR, rst_pad:Y, 
+  accumulator[1]:CLR, accumulator[4]:CLR, output_tmr3[14]:CLR, 
+  valid_tmr2:CLR, accumulator_tmr2[7]:CLR, accumulator_tmr2[3]:
+  CLR, output[12]:CLR, accumulator_tmr2[4]:CLR, 
+  accumulator_tmr3[1]:CLR, accumulator_tmr3[5]:CLR, 
+  accumulator_tmr2[0]:CLR, output[10]:CLR, accumulator[6]:CLR, 
+  output_tmr3[12]:CLR, valid_tmr3:CLR, accumulator[0]:CLR, 
+  un2_accumulator_counter_e3:S, output_tmr2[11]:CLR, 
+  accumulator_tmr3[11]:CLR, accumulator_tmr3[4]:CLR, 
+  accumulator[9]:CLR, output_tmr2[13]:CLR, 
+  un2_accumulator_counter_e4:S, accumulator_tmr2[5]:CLR, 
+  output[14]:CLR, un2_accumulator_counter_e1:S, 
+  accumulator_tmr2[6]:CLR, output[13]:CLR, accumulator_tmr3[10]:
+  CLR, rd_int_tmr3:CLR, output[8]:CLR, rd_int_tmr2:CLR, 
+  accumulator[5]:CLR, un2_accumulator_rd_int_del_0_sqmuxa:B, 
+  output_tmr2[15]:CLR, accumulator_tmr3[3]:CLR, output_tmr3[9]:
+  CLR, output_tmr2[10]:CLR, accumulator[3]:CLR, 
+  accumulator_tmr3[6]:CLR, accumulator_tmr2[1]:CLR, 
+  accumulator_tmr3[9]:CLR, output_tmr3[11]:CLR, accumulator[8]:
+  CLR, output_tmr2[8]:CLR, output_tmr3[13]:CLR, 
+  accumulator_tmr3[2]:CLR, accumulator_tmr3[0]:CLR, 
+  accumulator_tmr2[11]:CLR, accumulator[10]:CLR, 
+  accumulator_tmr2[8]:CLR, output_tmr2[14]:CLR, 
+  accumulator_tmr2[10]:CLR, accumulator_tmr2[9]:CLR, output[11]:
+  CLR, accumulator[2]:CLR, output[9]:CLR, output_tmr3[15]:CLR, 
+  un2_accumulator_counter_e2:S, output_tmr3[8]:CLR, 
+  accumulator[7]:CLR, accumulator_tmr2[2]:CLR, accumulator[11]:
+  CLR, output_tmr2[12]:CLR, output[15]:CLR, output_tmr2[9]:CLR, 
+  output_tmr3[10]:CLR.
+NET rst;  rst, rst_pad:PAD.
+NET empty_c;  un2_accumulator_rd_int_4_i:A, empty_pad:Y, 
+  un2_accumulator_valid_0_sqmuxa:B, 
+  un2_accumulator_rd_int_del_0_sqmuxa:A.
+NET empty;  empty, empty_pad:PAD.
+NET data_in_c[0];  un2_accumulator_accumulator_5[0]:A, 
+  data_in_pad[0]:Y, un2_accumulator_ADD_12x12_medium_area_I0_CO1:
+  B.
+NET data_in[0];  data_in<0>, data_in_pad[0]:PAD.
+NET data_in_c[1];  un2_accumulator_ADD_12x12_medium_area_I15_Y:A, 
+  un2_accumulator_ADD_12x12_medium_area_I37_Y:A, data_in_pad[1]:Y.
+NET data_in[1];  data_in<1>, data_in_pad[1]:PAD.
+NET data_in_c[2];  un2_accumulator_ADD_12x12_medium_area_I2_CO1:B, 
+  un2_accumulator_ADD_12x12_medium_area_I2_S:B, data_in_pad[2]:Y.
+NET data_in[2];  data_in<2>, data_in_pad[2]:PAD.
+NET data_in_c[3];  un2_accumulator_ADD_12x12_medium_area_I18_Y_0:
+  A, un2_accumulator_ADD_12x12_medium_area_I3_S:B, data_in_pad[3]:
+  Y.
+NET data_in[3];  data_in<3>, data_in_pad[3]:PAD.
+NET data_in_c[4];  un2_accumulator_ADD_12x12_medium_area_I4_CO1:A, 
+  un2_accumulator_ADD_12x12_medium_area_I4_S:A, data_in_pad[4]:Y.
+NET data_in[4];  data_in<4>, data_in_pad[4]:PAD.
+NET data_in_c[5];  un2_accumulator_ADD_12x12_medium_area_I5_S:A, 
+  un2_accumulator_ADD_12x12_medium_area_I11_Y:B, data_in_pad[5]:Y.
+NET data_in[5];  data_in<5>, data_in_pad[5]:PAD.
+NET data_in_c[6];  un2_accumulator_ADD_12x12_medium_area_I6_CO1:A, 
+  data_in_pad[6]:Y, un2_accumulator_ADD_12x12_medium_area_I6_S:A.
+NET data_in[6];  data_in<6>, data_in_pad[6]:PAD.
+NET data_in_c[7];  un2_accumulator_ADD_12x12_medium_area_I7_S:A, 
+  data_in_pad[7]:Y, un2_accumulator_ADD_12x12_medium_area_I19_Y_0:
+  B.
+NET data_in[7];  data_in<7>, data_in_pad[7]:PAD.
+NET read;  read, read_pad:PAD.
+NET valid;  valid, valid_pad:PAD.
+NET result[0];  result<0>, result_pad[0]:PAD.
+NET result[1];  result<1>, result_pad[1]:PAD.
+NET result[2];  result<2>, result_pad[2]:PAD.
+NET result[3];  result<3>, result_pad[3]:PAD.
+NET result[4];  result<4>, result_pad[4]:PAD.
+NET result[5];  result<5>, result_pad[5]:PAD.
+NET result[6];  result<6>, result_pad[6]:PAD.
+NET result[7];  result<7>, result_pad[7]:PAD.
+NET result[8];  result<8>, result_pad[8]:PAD.
+NET result[9];  result<9>, result_pad[9]:PAD.
+NET result[10];  result<10>, result_pad[10]:PAD.
+NET GND;  result_pad[9]:D, result_pad[10]:D, result_pad[8]:D, 
+  result_pad[11]:D, GND_i:Y.
+NET result[11];  result<11>, result_pad[11]:PAD.
+NET valid_1_sqmuxa_1;  un2_accumulator_counter_e0:A, 
+  un2_accumulator_accumulator_5[10]:B, 
+  un2_accumulator_accumulator_5[9]:C, 
+  un2_accumulator_accumulator_5[7]:C, 
+  un2_accumulator_accumulator_5[5]:C, un2_accumulator_counter_n3:
+  C, un2_accumulator_accumulator_5[6]:C, 
+  un2_accumulator_counter_n4:C, un2_accumulator_accumulator_5[3]:
+  C, un2_accumulator_counter_n1:C, 
+  un2_accumulator_accumulator_5[2]:C, 
+  un2_accumulator_accumulator_5[4]:C, 
+  un2_accumulator_accumulator_5[8]:C, 
+  un2_accumulator_valid_1_sqmuxa_1:Y, 
+  un2_accumulator_accumulator_5[0]:C, 
+  un2_accumulator_accumulator_5[1]:B, un2_accumulator_counter_n2:
+  C, un2_accumulator_accumulator_5[11]:C.
+NET un2_accumulator[1];  un2_accumulator_accumulator_5[1]:A, 
+  un2_accumulator_ADD_12x12_medium_area_I37_Y:Y.
+NET rd_int_del_0_sqmuxa;  un2_accumulator_rd_int_del_10:S, 
+  un2_accumulator_rd_int_del_0_sqmuxa:Y.
+NET un2_accumulator_N148;  
+  un2_accumulator_ADD_12x12_medium_area_I15_Y:C, 
+  un2_accumulator_ADD_12x12_medium_area_I37_Y:C, 
+  un2_accumulator_ADD_12x12_medium_area_I0_CO1:Y; ORIGNAME:
+  'un2_accumulator.N148'.
+NET un2_accumulator_N152;  
+  un2_accumulator_ADD_12x12_medium_area_I18_Y_0:C, 
+  un2_accumulator_ADD_12x12_medium_area_I36_Y:C, 
+  un2_accumulator_ADD_12x12_medium_area_I2_CO1:Y; ORIGNAME:
+  'un2_accumulator.N152'.
+NET un2_accumulator_N160;  
+  un2_accumulator_ADD_12x12_medium_area_I19_Y_0:C, 
+  un2_accumulator_ADD_12x12_medium_area_I34_Y:C, 
+  un2_accumulator_ADD_12x12_medium_area_I6_CO1:Y; ORIGNAME:
+  'un2_accumulator.N160'.
+NET un2_accumulator_N161;  
+  un2_accumulator_ADD_12x12_medium_area_I10_Y:A, 
+  un2_accumulator_accumulator_5[7]:A, 
+  un2_accumulator_ADD_12x12_medium_area_I7_S:Y; ORIGNAME:
+  'un2_accumulator.N161'.
+NET un2_accumulator_N159;  un2_accumulator_accumulator_5[6]:A, 
+  un2_accumulator_ADD_12x12_medium_area_I34_Y:B, 
+  un2_accumulator_ADD_12x12_medium_area_I10_Y:B, 
+  un2_accumulator_ADD_12x12_medium_area_I6_S:Y; ORIGNAME:
+  'un2_accumulator.N159'.
+NET un2_accumulator_N153;  
+  un2_accumulator_ADD_12x12_medium_area_I18_un1_Y_0:A, 
+  un2_accumulator_ADD_12x12_medium_area_I3_S:Y, 
+  un2_accumulator_accumulator_5[3]:A; ORIGNAME:
+  'un2_accumulator.N153'.
+NET un2_accumulator_N151;  
+  un2_accumulator_ADD_12x12_medium_area_I36_Y:A, 
+  un2_accumulator_ADD_12x12_medium_area_I2_S:Y, 
+  un2_accumulator_ADD_12x12_medium_area_I18_un1_Y_0:B, 
+  un2_accumulator_accumulator_5[2]:B; ORIGNAME:
+  'un2_accumulator.N151'.
+NET un2_accumulator_N191;  un2_accumulator_accumulator_5[2]:A, 
+  un2_accumulator_ADD_12x12_medium_area_I36_Y:B, 
+  un2_accumulator_ADD_12x12_medium_area_I18_Y:B, 
+  un2_accumulator_ADD_12x12_medium_area_I15_Y:Y; ORIGNAME:
+  'un2_accumulator.N191'.
+NET un2_accumulator_N216;  un2_accumulator_accumulator_5[4]:A, 
+  un2_accumulator_ADD_12x12_medium_area_I31_Y:B, 
+  un2_accumulator_ADD_12x12_medium_area_I19_Y:B, 
+  un2_accumulator_ADD_12x12_medium_area_I35_Y:B, 
+  un2_accumulator_ADD_12x12_medium_area_I18_Y:Y; ORIGNAME:
+  'un2_accumulator.N216'.
+NET un2_accumulator_N205;  
+  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y:A, 
+  un2_accumulator_ADD_12x12_medium_area_I33_un1_Y:A, 
+  un2_accumulator_ADD_12x12_medium_area_I19_Y:Y, 
+  un2_accumulator_ADD_12x12_medium_area_I46_Y:A, 
+  un2_accumulator_accumulator_5[8]:B; ORIGNAME:
+  'un2_accumulator.N205'.
+NET un2_accumulator_N218;  
+  un2_accumulator_ADD_12x12_medium_area_I34_Y:A, 
+  un2_accumulator_accumulator_5[6]:B, 
+  un2_accumulator_ADD_12x12_medium_area_I31_Y:Y; ORIGNAME:
+  'un2_accumulator.N218'.
+NET un2_accumulator_N226;  un2_accumulator_accumulator_5[7]:B, 
+  un2_accumulator_ADD_12x12_medium_area_I34_Y:Y; ORIGNAME:
+  'un2_accumulator.N226'.
+NET un2_accumulator_N228;  un2_accumulator_accumulator_5[5]:A, 
+  un2_accumulator_ADD_12x12_medium_area_I35_Y:Y; ORIGNAME:
+  'un2_accumulator.N228'.
+NET un2_accumulator_N156;  
+  un2_accumulator_ADD_12x12_medium_area_I35_Y:C, 
+  un2_accumulator_ADD_12x12_medium_area_I4_CO1:Y, 
+  un2_accumulator_ADD_12x12_medium_area_I11_Y:C; ORIGNAME:
+  'un2_accumulator.N156'.
+NET un2_accumulator_N230;  un2_accumulator_accumulator_5[3]:B, 
+  un2_accumulator_ADD_12x12_medium_area_I36_Y:Y; ORIGNAME:
+  'un2_accumulator.N230'.
+NET valid_0_sqmuxa;  un2_accumulator_valid_0_sqmuxa_1:C, 
+  un2_accumulator_valid_0_sqmuxa:Y, 
+  un2_accumulator_valid_1_sqmuxa_1:C.
+NET counter_n4;  un2_accumulator_counter_e4:A, 
+  un2_accumulator_counter_n4:Y.
+NET counter_n3;  un2_accumulator_counter_e3:A, 
+  un2_accumulator_counter_n3:Y.
+NET counter_n2;  un2_accumulator_counter_e2:A, 
+  un2_accumulator_counter_n2:Y.
+NET counter_n1;  un2_accumulator_counter_e1:A, 
+  un2_accumulator_counter_n1:Y.
+NET counter_c2;  un2_accumulator_counter_n3:A, 
+  un2_accumulator_counter_19_0:B, un2_accumulator_counter_c2:Y.
+NET counter_c1;  un2_accumulator_counter_n2:A, 
+  un2_accumulator_counter_c1:Y, un2_accumulator_counter_c2:A.
+NET un2_accumulator_N157;  
+  un2_accumulator_ADD_12x12_medium_area_I12_Y:A, 
+  un2_accumulator_accumulator_5[5]:B, 
+  un2_accumulator_ADD_12x12_medium_area_I5_S:Y; ORIGNAME:
+  'un2_accumulator.N157'.
+NET un2_accumulator_N155;  
+  un2_accumulator_ADD_12x12_medium_area_I35_Y:A, 
+  un2_accumulator_ADD_12x12_medium_area_I4_S:Y, 
+  un2_accumulator_ADD_12x12_medium_area_I12_Y:B, 
+  un2_accumulator_accumulator_5[4]:B; ORIGNAME:
+  'un2_accumulator.N155'.
+NET un2_accumulator_N212;  
+  un2_accumulator_ADD_12x12_medium_area_I19_Y_1:B, 
+  un2_accumulator_ADD_12x12_medium_area_I31_Y:C, 
+  un2_accumulator_ADD_12x12_medium_area_I11_Y:Y; ORIGNAME:
+  'un2_accumulator.N212'.
+NET un2_accumulator_N213;  
+  un2_accumulator_ADD_12x12_medium_area_I31_Y:A, 
+  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0:B, 
+  un2_accumulator_ADD_12x12_medium_area_I12_Y:Y; ORIGNAME:
+  'un2_accumulator.N213'.
+NET un2_accumulator_counter_19_0;  un2_accumulator_counter_n4:A, 
+  un2_accumulator_counter_19_0:Y; ORIGNAME:
+  'un2_accumulator.counter_19_0'.
+NET un2_accumulator_un3_empty_1;  
+  un2_accumulator_valid_0_sqmuxa_1:A, 
+  un2_accumulator_valid_1_sqmuxa_1:B, un2_accumulator_un3_empty_1:
+  Y; ORIGNAME:'un2_accumulator.un3_empty_1'.
+NET un2_accumulator_un3_empty_2;  
+  un2_accumulator_valid_1_sqmuxa_1:A, 
+  un2_accumulator_valid_0_sqmuxa_1:B, un2_accumulator_un3_empty_2:
+  Y; ORIGNAME:'un2_accumulator.un3_empty_2'.
+NET un2_accumulator_ADD_12x12_medium_area_I19_Y_0;  
+  un2_accumulator_ADD_12x12_medium_area_I19_Y_1:C, 
+  un2_accumulator_ADD_12x12_medium_area_I19_Y_0:Y; ORIGNAME:
+  'un2_accumulator.ADD_12x12_medium_area_I19_Y_0'.
+NET un2_accumulator_ADD_12x12_medium_area_I24_Y_0;  
+  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y:B, 
+  un2_accumulator_ADD_12x12_medium_area_I24_Y_0:Y, 
+  un2_accumulator_ADD_12x12_medium_area_I46_Y:B; ORIGNAME:
+  'un2_accumulator.ADD_12x12_medium_area_I24_Y_0'.
+NET accumulator[11];  un2_accumulator_accumulator_5[11]:A, 
+  accumulator_maj[11]:Y, un2_accumulator_output_9:B.
+NET accumulator[10];  un2_accumulator_output_8:B, 
+  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y:C, 
+  accumulator_maj[10]:Y, 
+  un2_accumulator_ADD_12x12_medium_area_I46_Y:C.
+NET accumulator[9];  
+  un2_accumulator_ADD_12x12_medium_area_I24_Y_0:A, 
+  un2_accumulator_accumulator_5[9]:A, un2_accumulator_output_7:B, 
+  accumulator_maj[9]:Y.
+NET accumulator[8];  un2_accumulator_accumulator_5[8]:A, 
+  accumulator_maj[8]:Y, 
+  un2_accumulator_ADD_12x12_medium_area_I24_Y_0:B, 
+  un2_accumulator_ADD_12x12_medium_area_I33_un1_Y:B, 
+  un2_accumulator_output_6:B.
+NET accumulator[7];  
+  un2_accumulator_ADD_12x12_medium_area_I19_Y_0:A, 
+  accumulator_maj[7]:Y, un2_accumulator_output_5:B, 
+  un2_accumulator_ADD_12x12_medium_area_I7_S:B.
+NET accumulator[6];  un2_accumulator_ADD_12x12_medium_area_I6_CO1:
+  B, accumulator_maj[6]:Y, un2_accumulator_output_4:B, 
+  un2_accumulator_ADD_12x12_medium_area_I6_S:B.
+NET accumulator[5];  un2_accumulator_ADD_12x12_medium_area_I11_Y:
+  A, accumulator_maj[5]:Y, 
+  un2_accumulator_ADD_12x12_medium_area_I5_S:B, 
+  un2_accumulator_output_3:B.
+NET accumulator[4];  un2_accumulator_ADD_12x12_medium_area_I4_CO1:
+  B, un2_accumulator_ADD_12x12_medium_area_I4_S:B, 
+  un2_accumulator_output_2:B, accumulator_maj[4]:Y.
+NET accumulator[3];  un2_accumulator_ADD_12x12_medium_area_I3_S:A, 
+  un2_accumulator_ADD_12x12_medium_area_I18_Y_0:B, 
+  accumulator_maj[3]:Y.
+NET accumulator[2];  un2_accumulator_ADD_12x12_medium_area_I2_CO1:
+  A, accumulator_maj[2]:Y, 
+  un2_accumulator_ADD_12x12_medium_area_I2_S:A.
+NET accumulator[1];  un2_accumulator_ADD_12x12_medium_area_I15_Y:
+  B, un2_accumulator_ADD_12x12_medium_area_I37_Y:B, 
+  accumulator_maj[1]:Y.
+NET accumulator[0];  un2_accumulator_ADD_12x12_medium_area_I0_CO1:
+  A, accumulator_maj[0]:Y, un2_accumulator_accumulator_5[0]:B.
+NET output[15];  un2_accumulator_output_9:A, result_pad[7]:D, 
+  output_maj[15]:Y.
+NET output[14];  un2_accumulator_output_8:A, result_pad[6]:D, 
+  output_maj[14]:Y.
+NET output[13];  un2_accumulator_output_7:A, output_maj[13]:Y, 
+  result_pad[5]:D.
+NET output[12];  un2_accumulator_output_6:A, output_maj[12]:Y, 
+  result_pad[4]:D.
+NET output[11];  un2_accumulator_output_5:A, output_maj[11]:Y, 
+  result_pad[3]:D.
+NET output[10];  un2_accumulator_output_4:A, result_pad[2]:D, 
+  output_maj[10]:Y.
+NET output[9];  un2_accumulator_output_3:A, output_maj[9]:Y, 
+  result_pad[1]:D.
+NET output[8];  un2_accumulator_output_2:A, result_pad[0]:D, 
+  output_maj[8]:Y.
+NET counter[4];  un2_accumulator_un3_empty_2:A, 
+  un2_accumulator_counter_n4:B, un2_accumulator_counter_e4:B, 
+  counter_maj[4]:Y.
+NET counter[3];  un2_accumulator_counter_19_0:A, 
+  un2_accumulator_counter_n3:B, un2_accumulator_counter_e3:B, 
+  un2_accumulator_un3_empty_2:C, counter_maj[3]:Y.
+NET counter[2];  un2_accumulator_un3_empty_1:A, counter_maj[2]:Y, 
+  un2_accumulator_counter_c2:B, un2_accumulator_counter_n2:B, 
+  un2_accumulator_counter_e2:B.
+NET counter[1];  un2_accumulator_counter_n1:A, 
+  un2_accumulator_counter_c1:A, un2_accumulator_un3_empty_2:B, 
+  un2_accumulator_counter_e1:B, counter_maj[1]:Y.
+NET counter[0];  un2_accumulator_un3_empty_1:B, counter_maj[0]:Y, 
+  un2_accumulator_counter_c1:B, un2_accumulator_counter_n1:B, 
+  un2_accumulator_counter_e0:C.
+NET rd_int_del;  un2_accumulator_rd_int_del_10:A, rd_int_del_maj:
+  Y, un2_accumulator_valid_0_sqmuxa:A.
+NET rd_int;  un2_accumulator_rd_int_del_10:B, rd_int_maj:Y, 
+  read_pad:D.
+NET valid_0;  valid_pad:D, valid_maj:Y.
+NET valid_1;  valid_maj:A, valid:Q.
+NET valid_tmr2;  valid_maj:B, valid_tmr2:Q.
+NET valid_tmr3;  valid_maj:C, valid_tmr3:Q.
+NET rd_int_0;  rd_int_maj:A, rd_int:Q.
+NET rd_int_tmr2;  rd_int_maj:B, rd_int_tmr2:Q.
+NET rd_int_tmr3;  rd_int_maj:C, rd_int_tmr3:Q.
+NET rd_int_del_0;  rd_int_del_maj:A, rd_int_del:Q.
+NET rd_int_del_tmr2;  rd_int_del_maj:B, rd_int_del_tmr2:Q.
+NET rd_int_del_tmr3;  rd_int_del_maj:C, rd_int_del_tmr3:Q.
+NET counter_0[0];  counter_maj[0]:A, counter[0]:Q.
+NET counter_tmr2[0];  counter_maj[0]:B, counter_tmr2[0]:Q.
+NET counter_tmr3[0];  counter_maj[0]:C, counter_tmr3[0]:Q.
+NET counter_0[1];  counter_maj[1]:A, counter[1]:Q.
+NET counter_tmr2[1];  counter_maj[1]:B, counter_tmr2[1]:Q.
+NET counter_tmr3[1];  counter_maj[1]:C, counter_tmr3[1]:Q.
+NET counter_0[2];  counter_maj[2]:A, counter[2]:Q.
+NET counter_tmr2[2];  counter_maj[2]:B, counter_tmr2[2]:Q.
+NET counter_tmr3[2];  counter_maj[2]:C, counter_tmr3[2]:Q.
+NET counter_0[3];  counter_maj[3]:A, counter[3]:Q.
+NET counter_tmr2[3];  counter_maj[3]:B, counter_tmr2[3]:Q.
+NET counter_tmr3[3];  counter_maj[3]:C, counter_tmr3[3]:Q.
+NET counter_0[4];  counter_maj[4]:A, counter[4]:Q.
+NET counter_tmr2[4];  counter_maj[4]:B, counter_tmr2[4]:Q.
+NET counter_tmr3[4];  counter_maj[4]:C, counter_tmr3[4]:Q.
+NET output_0[8];  output_maj[8]:A, output[8]:Q.
+NET output_tmr2[8];  output_maj[8]:B, output_tmr2[8]:Q.
+NET output_tmr3[8];  output_maj[8]:C, output_tmr3[8]:Q.
+NET output_0[9];  output_maj[9]:A, output[9]:Q.
+NET output_tmr2[9];  output_maj[9]:B, output_tmr2[9]:Q.
+NET output_tmr3[9];  output_maj[9]:C, output_tmr3[9]:Q.
+NET output_0[10];  output_maj[10]:A, output[10]:Q.
+NET output_tmr2[10];  output_maj[10]:B, output_tmr2[10]:Q.
+NET output_tmr3[10];  output_maj[10]:C, output_tmr3[10]:Q.
+NET output_0[11];  output_maj[11]:A, output[11]:Q.
+NET output_tmr2[11];  output_maj[11]:B, output_tmr2[11]:Q.
+NET output_tmr3[11];  output_maj[11]:C, output_tmr3[11]:Q.
+NET output_0[12];  output_maj[12]:A, output[12]:Q.
+NET output_tmr2[12];  output_maj[12]:B, output_tmr2[12]:Q.
+NET output_tmr3[12];  output_maj[12]:C, output_tmr3[12]:Q.
+NET output_0[13];  output_maj[13]:A, output[13]:Q.
+NET output_tmr2[13];  output_maj[13]:B, output_tmr2[13]:Q.
+NET output_tmr3[13];  output_maj[13]:C, output_tmr3[13]:Q.
+NET output_0[14];  output_maj[14]:A, output[14]:Q.
+NET output_tmr2[14];  output_maj[14]:B, output_tmr2[14]:Q.
+NET output_tmr3[14];  output_maj[14]:C, output_tmr3[14]:Q.
+NET output_0[15];  output_maj[15]:A, output[15]:Q.
+NET output_tmr2[15];  output_maj[15]:B, output_tmr2[15]:Q.
+NET output_tmr3[15];  output_maj[15]:C, output_tmr3[15]:Q.
+NET accumulator_0[0];  accumulator_maj[0]:A, accumulator[0]:Q.
+NET accumulator_tmr2[0];  accumulator_maj[0]:B, 
+  accumulator_tmr2[0]:Q.
+NET accumulator_tmr3[0];  accumulator_maj[0]:C, 
+  accumulator_tmr3[0]:Q.
+NET accumulator_0[1];  accumulator_maj[1]:A, accumulator[1]:Q.
+NET accumulator_tmr2[1];  accumulator_maj[1]:B, 
+  accumulator_tmr2[1]:Q.
+NET accumulator_tmr3[1];  accumulator_maj[1]:C, 
+  accumulator_tmr3[1]:Q.
+NET accumulator_0[2];  accumulator_maj[2]:A, accumulator[2]:Q.
+NET accumulator_tmr2[2];  accumulator_maj[2]:B, 
+  accumulator_tmr2[2]:Q.
+NET accumulator_tmr3[2];  accumulator_maj[2]:C, 
+  accumulator_tmr3[2]:Q.
+NET accumulator_0[3];  accumulator_maj[3]:A, accumulator[3]:Q.
+NET accumulator_tmr2[3];  accumulator_maj[3]:B, 
+  accumulator_tmr2[3]:Q.
+NET accumulator_tmr3[3];  accumulator_maj[3]:C, 
+  accumulator_tmr3[3]:Q.
+NET accumulator_0[4];  accumulator_maj[4]:A, accumulator[4]:Q.
+NET accumulator_tmr2[4];  accumulator_maj[4]:B, 
+  accumulator_tmr2[4]:Q.
+NET accumulator_tmr3[4];  accumulator_maj[4]:C, 
+  accumulator_tmr3[4]:Q.
+NET accumulator_0[5];  accumulator_maj[5]:A, accumulator[5]:Q.
+NET accumulator_tmr2[5];  accumulator_maj[5]:B, 
+  accumulator_tmr2[5]:Q.
+NET accumulator_tmr3[5];  accumulator_maj[5]:C, 
+  accumulator_tmr3[5]:Q.
+NET accumulator_0[6];  accumulator_maj[6]:A, accumulator[6]:Q.
+NET accumulator_tmr2[6];  accumulator_maj[6]:B, 
+  accumulator_tmr2[6]:Q.
+NET accumulator_tmr3[6];  accumulator_maj[6]:C, 
+  accumulator_tmr3[6]:Q.
+NET accumulator_0[7];  accumulator_maj[7]:A, accumulator[7]:Q.
+NET accumulator_tmr2[7];  accumulator_maj[7]:B, 
+  accumulator_tmr2[7]:Q.
+NET accumulator_tmr3[7];  accumulator_maj[7]:C, 
+  accumulator_tmr3[7]:Q.
+NET accumulator_0[8];  accumulator_maj[8]:A, accumulator[8]:Q.
+NET accumulator_tmr2[8];  accumulator_maj[8]:B, 
+  accumulator_tmr2[8]:Q.
+NET accumulator_tmr3[8];  accumulator_maj[8]:C, 
+  accumulator_tmr3[8]:Q.
+NET accumulator_0[9];  accumulator_maj[9]:A, accumulator[9]:Q.
+NET accumulator_tmr2[9];  accumulator_maj[9]:B, 
+  accumulator_tmr2[9]:Q.
+NET accumulator_tmr3[9];  accumulator_maj[9]:C, 
+  accumulator_tmr3[9]:Q.
+NET accumulator_0[10];  accumulator_maj[10]:A, accumulator[10]:Q.
+NET accumulator_tmr2[10];  accumulator_maj[10]:B, 
+  accumulator_tmr2[10]:Q.
+NET accumulator_tmr3[10];  accumulator_maj[10]:C, 
+  accumulator_tmr3[10]:Q.
+NET accumulator_0[11];  accumulator_maj[11]:A, accumulator[11]:Q.
+NET accumulator_tmr2[11];  accumulator_maj[11]:B, 
+  accumulator_tmr2[11]:Q.
+NET accumulator_tmr3[11];  accumulator_maj[11]:C, 
+  accumulator_tmr3[11]:Q.
+NET un2_accumulator_I33_un1_Y;  un2_accumulator_accumulator_5[9]:
+  B, un2_accumulator_ADD_12x12_medium_area_I33_un1_Y:Y; ORIGNAME:
+  'un2_accumulator.I33_un1_Y'.
+NET un2_accumulator[10];  un2_accumulator_accumulator_5[10]:A, 
+  un2_accumulator_ADD_12x12_medium_area_I46_Y:Y.
+NET un2_accumulator_I32_un1_Y;  un2_accumulator_accumulator_5[11]:
+  B, un2_accumulator_ADD_12x12_medium_area_I32_un1_Y:Y; ORIGNAME:
+  'un2_accumulator.I32_un1_Y'.
+NET un2_accumulator_N186;  
+  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0:A, 
+  un2_accumulator_ADD_12x12_medium_area_I19_Y_1:A, 
+  un2_accumulator_ADD_12x12_medium_area_I10_Y:Y; ORIGNAME:
+  'un2_accumulator.N186'.
+NET un2_accumulator_ADD_12x12_medium_area_I18_un1_Y_0;  
+  un2_accumulator_ADD_12x12_medium_area_I18_Y:A, 
+  un2_accumulator_ADD_12x12_medium_area_I18_un1_Y_0:Y; ORIGNAME:
+  'un2_accumulator.ADD_12x12_medium_area_I18_un1_Y_0'.
+NET un2_accumulator_ADD_12x12_medium_area_I18_Y_0;  
+  un2_accumulator_ADD_12x12_medium_area_I18_Y:C, 
+  un2_accumulator_ADD_12x12_medium_area_I18_Y_0:Y; ORIGNAME:
+  'un2_accumulator.ADD_12x12_medium_area_I18_Y_0'.
+NET un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0;  
+  un2_accumulator_ADD_12x12_medium_area_I19_Y:A, 
+  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0:Y; ORIGNAME:
+  'un2_accumulator.ADD_12x12_medium_area_I19_un1_Y_0'.
+NET un2_accumulator_ADD_12x12_medium_area_I19_Y_1;  
+  un2_accumulator_ADD_12x12_medium_area_I19_Y:C, 
+  un2_accumulator_ADD_12x12_medium_area_I19_Y_1:Y; ORIGNAME:
+  'un2_accumulator.ADD_12x12_medium_area_I19_Y_1'.
+END.

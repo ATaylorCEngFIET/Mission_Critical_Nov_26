@@ -1,0 +1,44 @@
+*****************************************************************
+Pin Report - Date: Tue Dec 01 21:02:26 2020 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP5
+Version: 11.9.5.5
+Design Name: average
+Family: ProASIC3L
+Die: RT3PE3000L
+Package: 484 CCGA
+*****************************************************************
+
+-----------------------------------------------------------------
+Flash*Freeze information
+        Pin name  : W6
+        Pin usage : Available as a regular pin
+-----------------------------------------------------------------
+
+Port       |Pin |Fixed |Function        |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Input Delay |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----------|----|------|----------------|--------|------------------|-----|--------------|----------------|------------|-----|-----------------|------------|--------------|
+clk         D5   Yes    GAA0/IO00NDB0V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+data_in[0]  A5   Yes    IO10PDB0V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+data_in[1]  A6   Yes    IO16NDB0V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+data_in[2]  A7   Yes    IO16PDB0V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+data_in[3]  A8   Yes    IO18PDB0V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+data_in[4]  A4   Yes    IO10NDB0V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+data_in[5]  A11  Yes    IO28PDB0V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+data_in[6]  A9   Yes    IO24PDB0V2       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+data_in[7]  A10  Yes    IO28NDB0V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+empty       A12  Yes    IO46PDB1V0       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+read        A13  Yes    IO54PDB1V1       LVTTL    12                 High  None           ---              ---          No    5                 No           Yes
+result[0]   A15  Yes    IO56PDB1V1       LVTTL    12                 High  None           ---              ---          No    5                 No           Yes
+result[1]   A14  Yes    IO56NDB1V1       LVTTL    12                 High  None           ---              ---          No    5                 No           Yes
+result[2]   A16  Yes    IO64NDB1V2       LVTTL    12                 High  None           ---              ---          No    5                 No           Yes
+result[3]   A17  Yes    IO64PDB1V2       LVTTL    12                 High  None           ---              ---          No    5                 No           Yes
+result[4]   A19  Yes    IO74NDB1V4       LVTTL    12                 High  None           ---              ---          No    5                 No           Yes
+result[5]   A18  Yes    IO72NDB1V3       LVTTL    12                 High  None           ---              ---          No    5                 No           Yes
+result[6]   AA3  Yes    IO228PDB5V4      LVTTL    12                 High  None           ---              ---          No    5                 No           Yes
+result[7]   AA4  Yes    IO224PDB5V3      LVTTL    12                 High  None           ---              ---          No    5                 No           Yes
+result[8]   AA6  Yes    IO218PDB5V3      LVTTL    12                 High  None           ---              ---          No    5                 No           Yes
+result[9]   AA5  Yes    IO218NDB5V3      LVTTL    12                 High  None           ---              ---          No    5                 No           Yes
+result[10]  AA7  Yes    IO212NDB5V2      LVTTL    12                 High  None           ---              ---          No    5                 No           Yes
+result[11]  AA9  Yes    IO198PDB5V0      LVTTL    12                 High  None           ---              ---          No    5                 No           Yes
+rst         D7   Yes    GAB0/IO01NDB0V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+valid       AA8  Yes    IO212PDB5V2      LVTTL    12                 High  None           ---              ---          No    5                 No           Yes

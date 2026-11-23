@@ -1,0 +1,25 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\aptay\\Dropbox\\adiuvo\\mission_critical_course\\06_MicroSemi_Introduction\\RTL\\Intro_prj\\synthesis\\synwork\\average_comp.srs|-top|work.average|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_vhdl.exe":1509015628
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\location.map":1509021636
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std.vhd":1509015128
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1509015128
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1509015128
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1509015128
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1509015446
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1509015128
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1509015128
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1509015128
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1509015128
+#CUR:"C:\\Users\\aptay\\Dropbox\\adiuvo\\mission_critical_course\\06_MicroSemi_Introduction\\RTL\\Intro_prj\\hdl\\block_average.vhd":1606843447
+0 "C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\hdl\block_average.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work average rtl 0
+module work average 0

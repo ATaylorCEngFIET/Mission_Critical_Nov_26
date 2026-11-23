@@ -1,0 +1,490 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "average")
+(DATE "123")
+(VENDOR "ProASIC3L")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 2172R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "average")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator_tmr3\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I33_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I33_un1_Y/Y  un2_accumulator_accumulator_5\[9\]/B  un2_accumulator_accumulator_5\[9\]/Y  accumulator\[9\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I33_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I33_un1_Y/Y  un2_accumulator_accumulator_5\[9\]/B  un2_accumulator_accumulator_5\[9\]/Y  accumulator_tmr2\[9\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I33_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I33_un1_Y/Y  un2_accumulator_accumulator_5\[9\]/B  un2_accumulator_accumulator_5\[9\]/Y  accumulator_tmr3\[9\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[6\]/CLK  accumulator_tmr2\[6\]/Q  accumulator_maj\[6\]/B  accumulator_maj\[6\]/Y  un2_accumulator_ADD_12x12_medium_area_I6_S/B  un2_accumulator_ADD_12x12_medium_area_I6_S/Y  un2_accumulator_ADD_12x12_medium_area_I10_Y/B  un2_accumulator_ADD_12x12_medium_area_I10_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/A  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[6\]/CLK  accumulator_tmr2\[6\]/Q  accumulator_maj\[6\]/B  accumulator_maj\[6\]/Y  un2_accumulator_ADD_12x12_medium_area_I6_S/B  un2_accumulator_ADD_12x12_medium_area_I6_S/Y  un2_accumulator_ADD_12x12_medium_area_I10_Y/B  un2_accumulator_ADD_12x12_medium_area_I10_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/A  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I46_Y/A  un2_accumulator_ADD_12x12_medium_area_I46_Y/Y  un2_accumulator_accumulator_5\[10\]/A  un2_accumulator_accumulator_5\[10\]/Y  accumulator\[10\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr3\[0\]/CLK  accumulator_tmr3\[0\]/Q  accumulator_maj\[0\]/C  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[6\]/CLK  accumulator_tmr2\[6\]/Q  accumulator_maj\[6\]/B  accumulator_maj\[6\]/Y  un2_accumulator_ADD_12x12_medium_area_I6_S/B  un2_accumulator_ADD_12x12_medium_area_I6_S/Y  un2_accumulator_ADD_12x12_medium_area_I10_Y/B  un2_accumulator_ADD_12x12_medium_area_I10_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/A  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/A  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr3\[6\]/CLK  accumulator_tmr3\[6\]/Q  accumulator_maj\[6\]/C  accumulator_maj\[6\]/Y  un2_accumulator_ADD_12x12_medium_area_I6_S/B  un2_accumulator_ADD_12x12_medium_area_I6_S/Y  un2_accumulator_ADD_12x12_medium_area_I10_Y/B  un2_accumulator_ADD_12x12_medium_area_I10_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/A  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[4\]/CLK  accumulator_tmr2\[4\]/Q  accumulator_maj\[4\]/B  accumulator_maj\[4\]/Y  un2_accumulator_ADD_12x12_medium_area_I4_S/B  un2_accumulator_ADD_12x12_medium_area_I4_S/Y  un2_accumulator_ADD_12x12_medium_area_I12_Y/B  un2_accumulator_ADD_12x12_medium_area_I12_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/B  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/A  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[2\]/CLK  accumulator_tmr2\[2\]/Q  accumulator_maj\[2\]/B  accumulator_maj\[2\]/Y  un2_accumulator_ADD_12x12_medium_area_I2_CO1/A  un2_accumulator_ADD_12x12_medium_area_I2_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y_0/C  un2_accumulator_ADD_12x12_medium_area_I18_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/C  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr3\[4\]/CLK  accumulator_tmr3\[4\]/Q  accumulator_maj\[4\]/C  accumulator_maj\[4\]/Y  un2_accumulator_ADD_12x12_medium_area_I4_S/B  un2_accumulator_ADD_12x12_medium_area_I4_S/Y  un2_accumulator_ADD_12x12_medium_area_I12_Y/B  un2_accumulator_ADD_12x12_medium_area_I12_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/B  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/A  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[2\]/CLK  accumulator_tmr2\[2\]/Q  accumulator_maj\[2\]/B  accumulator_maj\[2\]/Y  un2_accumulator_ADD_12x12_medium_area_I2_S/A  un2_accumulator_ADD_12x12_medium_area_I2_S/Y  un2_accumulator_ADD_12x12_medium_area_I18_un1_Y_0/B  un2_accumulator_ADD_12x12_medium_area_I18_un1_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/A  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[7\]/CLK  accumulator_tmr2\[7\]/Q  accumulator_maj\[7\]/B  accumulator_maj\[7\]/Y  un2_accumulator_ADD_12x12_medium_area_I7_S/B  un2_accumulator_ADD_12x12_medium_area_I7_S/Y  un2_accumulator_ADD_12x12_medium_area_I10_Y/A  un2_accumulator_ADD_12x12_medium_area_I10_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/A  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr3\[2\]/CLK  accumulator_tmr3\[2\]/Q  accumulator_maj\[2\]/C  accumulator_maj\[2\]/Y  un2_accumulator_ADD_12x12_medium_area_I2_CO1/A  un2_accumulator_ADD_12x12_medium_area_I2_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y_0/C  un2_accumulator_ADD_12x12_medium_area_I18_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/C  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator\[0\]/CLK  accumulator\[0\]/Q  accumulator_maj\[0\]/A  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[6\]/CLK  accumulator_tmr2\[6\]/Q  accumulator_maj\[6\]/B  accumulator_maj\[6\]/Y  un2_accumulator_ADD_12x12_medium_area_I6_CO1/B  un2_accumulator_ADD_12x12_medium_area_I6_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_0/C  un2_accumulator_ADD_12x12_medium_area_I19_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/C  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator\[6\]/CLK  accumulator\[6\]/Q  accumulator_maj\[6\]/A  accumulator_maj\[6\]/Y  un2_accumulator_ADD_12x12_medium_area_I6_S/B  un2_accumulator_ADD_12x12_medium_area_I6_S/Y  un2_accumulator_ADD_12x12_medium_area_I10_Y/B  un2_accumulator_ADD_12x12_medium_area_I10_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/A  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr3\[7\]/CLK  accumulator_tmr3\[7\]/Q  accumulator_maj\[7\]/C  accumulator_maj\[7\]/Y  un2_accumulator_ADD_12x12_medium_area_I7_S/B  un2_accumulator_ADD_12x12_medium_area_I7_S/Y  un2_accumulator_ADD_12x12_medium_area_I10_Y/A  un2_accumulator_ADD_12x12_medium_area_I10_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/A  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[4\]/CLK  accumulator_tmr2\[4\]/Q  accumulator_maj\[4\]/B  accumulator_maj\[4\]/Y  un2_accumulator_ADD_12x12_medium_area_I4_CO1/B  un2_accumulator_ADD_12x12_medium_area_I4_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I11_Y/C  un2_accumulator_ADD_12x12_medium_area_I11_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/B  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[5\]/CLK  accumulator_tmr2\[5\]/Q  accumulator_maj\[5\]/B  accumulator_maj\[5\]/Y  un2_accumulator_ADD_12x12_medium_area_I5_S/B  un2_accumulator_ADD_12x12_medium_area_I5_S/Y  un2_accumulator_ADD_12x12_medium_area_I12_Y/A  un2_accumulator_ADD_12x12_medium_area_I12_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/B  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/A  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I31_Y/B  un2_accumulator_ADD_12x12_medium_area_I31_Y/Y  un2_accumulator_ADD_12x12_medium_area_I34_Y/A  un2_accumulator_ADD_12x12_medium_area_I34_Y/Y  un2_accumulator_accumulator_5\[7\]/B  un2_accumulator_accumulator_5\[7\]/Y  accumulator\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[1\]/CLK  accumulator_tmr2\[1\]/Q  accumulator_maj\[1\]/B  accumulator_maj\[1\]/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/B  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator\[4\]/CLK  accumulator\[4\]/Q  accumulator_maj\[4\]/A  accumulator_maj\[4\]/Y  un2_accumulator_ADD_12x12_medium_area_I4_S/B  un2_accumulator_ADD_12x12_medium_area_I4_S/Y  un2_accumulator_ADD_12x12_medium_area_I12_Y/B  un2_accumulator_ADD_12x12_medium_area_I12_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/B  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/A  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr3\[5\]/CLK  accumulator_tmr3\[5\]/Q  accumulator_maj\[5\]/C  accumulator_maj\[5\]/Y  un2_accumulator_ADD_12x12_medium_area_I5_S/B  un2_accumulator_ADD_12x12_medium_area_I5_S/Y  un2_accumulator_ADD_12x12_medium_area_I12_Y/A  un2_accumulator_ADD_12x12_medium_area_I12_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/B  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/A  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[3\]/CLK  accumulator_tmr2\[3\]/Q  accumulator_maj\[3\]/B  accumulator_maj\[3\]/Y  un2_accumulator_ADD_12x12_medium_area_I3_S/A  un2_accumulator_ADD_12x12_medium_area_I3_S/Y  un2_accumulator_ADD_12x12_medium_area_I18_un1_Y_0/A  un2_accumulator_ADD_12x12_medium_area_I18_un1_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/A  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[6\]/CLK  accumulator_tmr2\[6\]/Q  accumulator_maj\[6\]/B  accumulator_maj\[6\]/Y  un2_accumulator_ADD_12x12_medium_area_I6_S/B  un2_accumulator_ADD_12x12_medium_area_I6_S/Y  un2_accumulator_ADD_12x12_medium_area_I10_Y/B  un2_accumulator_ADD_12x12_medium_area_I10_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/A  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_accumulator_5\[8\]/B  un2_accumulator_accumulator_5\[8\]/Y  accumulator\[8\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[6\]/CLK  accumulator_tmr2\[6\]/Q  accumulator_maj\[6\]/B  accumulator_maj\[6\]/Y  un2_accumulator_ADD_12x12_medium_area_I6_S/B  un2_accumulator_ADD_12x12_medium_area_I6_S/Y  un2_accumulator_ADD_12x12_medium_area_I10_Y/B  un2_accumulator_ADD_12x12_medium_area_I10_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/A  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_accumulator_5\[8\]/B  un2_accumulator_accumulator_5\[8\]/Y  accumulator_tmr2\[8\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[6\]/CLK  accumulator_tmr2\[6\]/Q  accumulator_maj\[6\]/B  accumulator_maj\[6\]/Y  un2_accumulator_ADD_12x12_medium_area_I6_S/B  un2_accumulator_ADD_12x12_medium_area_I6_S/Y  un2_accumulator_ADD_12x12_medium_area_I10_Y/B  un2_accumulator_ADD_12x12_medium_area_I10_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/A  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_accumulator_5\[8\]/B  un2_accumulator_accumulator_5\[8\]/Y  accumulator_tmr3\[8\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator\[2\]/CLK  accumulator\[2\]/Q  accumulator_maj\[2\]/A  accumulator_maj\[2\]/Y  un2_accumulator_ADD_12x12_medium_area_I2_CO1/A  un2_accumulator_ADD_12x12_medium_area_I2_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y_0/C  un2_accumulator_ADD_12x12_medium_area_I18_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/C  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[3\]/CLK  accumulator_tmr2\[3\]/Q  accumulator_maj\[3\]/B  accumulator_maj\[3\]/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y_0/B  un2_accumulator_ADD_12x12_medium_area_I18_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/C  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr3\[3\]/CLK  accumulator_tmr3\[3\]/Q  accumulator_maj\[3\]/C  accumulator_maj\[3\]/Y  un2_accumulator_ADD_12x12_medium_area_I3_S/A  un2_accumulator_ADD_12x12_medium_area_I3_S/Y  un2_accumulator_ADD_12x12_medium_area_I18_un1_Y_0/A  un2_accumulator_ADD_12x12_medium_area_I18_un1_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/A  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator\[7\]/CLK  accumulator\[7\]/Q  accumulator_maj\[7\]/A  accumulator_maj\[7\]/Y  un2_accumulator_ADD_12x12_medium_area_I7_S/B  un2_accumulator_ADD_12x12_medium_area_I7_S/Y  un2_accumulator_ADD_12x12_medium_area_I10_Y/A  un2_accumulator_ADD_12x12_medium_area_I10_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/A  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr3\[1\]/CLK  accumulator_tmr3\[1\]/Q  accumulator_maj\[1\]/C  accumulator_maj\[1\]/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/B  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator\[5\]/CLK  accumulator\[5\]/Q  accumulator_maj\[5\]/A  accumulator_maj\[5\]/Y  un2_accumulator_ADD_12x12_medium_area_I5_S/B  un2_accumulator_ADD_12x12_medium_area_I5_S/Y  un2_accumulator_ADD_12x12_medium_area_I12_Y/A  un2_accumulator_ADD_12x12_medium_area_I12_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/B  un2_accumulator_ADD_12x12_medium_area_I19_un1_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/A  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator\[3\]/CLK  accumulator\[3\]/Q  accumulator_maj\[3\]/A  accumulator_maj\[3\]/Y  un2_accumulator_ADD_12x12_medium_area_I3_S/A  un2_accumulator_ADD_12x12_medium_area_I3_S/Y  un2_accumulator_ADD_12x12_medium_area_I18_un1_Y_0/A  un2_accumulator_ADD_12x12_medium_area_I18_un1_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/A  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator\[1\]/CLK  accumulator\[1\]/Q  accumulator_maj\[1\]/A  accumulator_maj\[1\]/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/B  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/B  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I31_Y/B  un2_accumulator_ADD_12x12_medium_area_I31_Y/Y  un2_accumulator_accumulator_5\[6\]/B  un2_accumulator_accumulator_5\[6\]/Y  accumulator\[6\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I31_Y/B  un2_accumulator_ADD_12x12_medium_area_I31_Y/Y  un2_accumulator_accumulator_5\[6\]/B  un2_accumulator_accumulator_5\[6\]/Y  accumulator_tmr2\[6\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I31_Y/B  un2_accumulator_ADD_12x12_medium_area_I31_Y/Y  un2_accumulator_accumulator_5\[6\]/B  un2_accumulator_accumulator_5\[6\]/Y  accumulator_tmr3\[6\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n2/C  un2_accumulator_counter_n2/Y  un2_accumulator_counter_e2/A  un2_accumulator_counter_e2/Y  counter\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n3/C  un2_accumulator_counter_n3/Y  un2_accumulator_counter_e3/A  un2_accumulator_counter_e3/Y  counter\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n4/C  un2_accumulator_counter_n4/Y  un2_accumulator_counter_e4/A  un2_accumulator_counter_e4/Y  counter\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[4\]/CLK  accumulator_tmr2\[4\]/Q  accumulator_maj\[4\]/B  accumulator_maj\[4\]/Y  un2_accumulator_ADD_12x12_medium_area_I4_S/B  un2_accumulator_ADD_12x12_medium_area_I4_S/Y  un2_accumulator_ADD_12x12_medium_area_I12_Y/B  un2_accumulator_ADD_12x12_medium_area_I12_Y/Y  un2_accumulator_ADD_12x12_medium_area_I31_Y/A  un2_accumulator_ADD_12x12_medium_area_I31_Y/Y  un2_accumulator_ADD_12x12_medium_area_I34_Y/A  un2_accumulator_ADD_12x12_medium_area_I34_Y/Y  un2_accumulator_accumulator_5\[7\]/B  un2_accumulator_accumulator_5\[7\]/Y  accumulator\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[4\]/CLK  accumulator_tmr2\[4\]/Q  accumulator_maj\[4\]/B  accumulator_maj\[4\]/Y  un2_accumulator_ADD_12x12_medium_area_I4_S/B  un2_accumulator_ADD_12x12_medium_area_I4_S/Y  un2_accumulator_ADD_12x12_medium_area_I12_Y/B  un2_accumulator_ADD_12x12_medium_area_I12_Y/Y  un2_accumulator_ADD_12x12_medium_area_I31_Y/A  un2_accumulator_ADD_12x12_medium_area_I31_Y/Y  un2_accumulator_ADD_12x12_medium_area_I34_Y/A  un2_accumulator_ADD_12x12_medium_area_I34_Y/Y  un2_accumulator_accumulator_5\[7\]/B  un2_accumulator_accumulator_5\[7\]/Y  accumulator_tmr2\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[4\]/CLK  accumulator_tmr2\[4\]/Q  accumulator_maj\[4\]/B  accumulator_maj\[4\]/Y  un2_accumulator_ADD_12x12_medium_area_I4_S/B  un2_accumulator_ADD_12x12_medium_area_I4_S/Y  un2_accumulator_ADD_12x12_medium_area_I12_Y/B  un2_accumulator_ADD_12x12_medium_area_I12_Y/Y  un2_accumulator_ADD_12x12_medium_area_I31_Y/A  un2_accumulator_ADD_12x12_medium_area_I31_Y/Y  un2_accumulator_ADD_12x12_medium_area_I34_Y/A  un2_accumulator_ADD_12x12_medium_area_I34_Y/Y  un2_accumulator_accumulator_5\[7\]/B  un2_accumulator_accumulator_5\[7\]/Y  accumulator_tmr3\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[0\]/CLK  counter_tmr2\[0\]/Q  counter_maj\[0\]/B  counter_maj\[0\]/Y  un2_accumulator_un3_empty_1/B  un2_accumulator_un3_empty_1/Y  un2_accumulator_valid_1_sqmuxa_1/B  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr3\[3\]/CLK  counter_tmr3\[3\]/Q  counter_maj\[3\]/C  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[1\]/CLK  counter_tmr2\[1\]/Q  counter_maj\[1\]/B  counter_maj\[1\]/Y  un2_accumulator_un3_empty_2/B  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[2\]/CLK  counter_tmr2\[2\]/Q  counter_maj\[2\]/B  counter_maj\[2\]/Y  un2_accumulator_un3_empty_1/A  un2_accumulator_un3_empty_1/Y  un2_accumulator_valid_1_sqmuxa_1/B  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[7\]/CLK  accumulator_tmr2\[7\]/Q  accumulator_maj\[7\]/B  accumulator_maj\[7\]/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_0/A  un2_accumulator_ADD_12x12_medium_area_I19_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/C  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr3\[0\]/CLK  counter_tmr3\[0\]/Q  counter_maj\[0\]/C  counter_maj\[0\]/Y  un2_accumulator_un3_empty_1/B  un2_accumulator_un3_empty_1/Y  un2_accumulator_valid_1_sqmuxa_1/B  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[4\]/CLK  counter_tmr2\[4\]/Q  counter_maj\[4\]/B  counter_maj\[4\]/Y  un2_accumulator_un3_empty_2/A  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[5\]/CLK  accumulator_tmr2\[5\]/Q  accumulator_maj\[5\]/B  accumulator_maj\[5\]/Y  un2_accumulator_ADD_12x12_medium_area_I11_Y/A  un2_accumulator_ADD_12x12_medium_area_I11_Y/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/B  un2_accumulator_ADD_12x12_medium_area_I19_Y_1/Y  un2_accumulator_ADD_12x12_medium_area_I19_Y/C  un2_accumulator_ADD_12x12_medium_area_I19_Y/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/A  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr3\[4\]/CLK  counter_tmr3\[4\]/Q  counter_maj\[4\]/C  counter_maj\[4\]/Y  un2_accumulator_un3_empty_2/A  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_e0/A  un2_accumulator_counter_e0/Y  counter\[0\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_e0/A  un2_accumulator_counter_e0/Y  counter_tmr2\[0\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_e0/A  un2_accumulator_counter_e0/Y  counter_tmr3\[0\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr3\[1\]/CLK  counter_tmr3\[1\]/Q  counter_maj\[1\]/C  counter_maj\[1\]/Y  un2_accumulator_un3_empty_2/B  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[4\]/CLK  accumulator_tmr2\[4\]/Q  accumulator_maj\[4\]/B  accumulator_maj\[4\]/Y  un2_accumulator_ADD_12x12_medium_area_I4_CO1/B  un2_accumulator_ADD_12x12_medium_area_I4_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I11_Y/C  un2_accumulator_ADD_12x12_medium_area_I11_Y/Y  un2_accumulator_ADD_12x12_medium_area_I31_Y/C  un2_accumulator_ADD_12x12_medium_area_I31_Y/Y  un2_accumulator_ADD_12x12_medium_area_I34_Y/A  un2_accumulator_ADD_12x12_medium_area_I34_Y/Y  un2_accumulator_accumulator_5\[7\]/B  un2_accumulator_accumulator_5\[7\]/Y  accumulator\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr3\[2\]/CLK  counter_tmr3\[2\]/Q  counter_maj\[2\]/C  counter_maj\[2\]/Y  un2_accumulator_un3_empty_1/A  un2_accumulator_un3_empty_1/Y  un2_accumulator_valid_1_sqmuxa_1/B  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter\[3\]/CLK  counter\[3\]/Q  counter_maj\[3\]/A  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I35_Y/B  un2_accumulator_ADD_12x12_medium_area_I35_Y/Y  un2_accumulator_accumulator_5\[5\]/A  un2_accumulator_accumulator_5\[5\]/Y  accumulator\[5\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_ADD_12x12_medium_area_I35_Y/B  un2_accumulator_ADD_12x12_medium_area_I35_Y/Y  un2_accumulator_accumulator_5\[5\]/A  un2_accumulator_accumulator_5\[5\]/Y  accumulator_tmr3\[5\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter\[0\]/CLK  counter\[0\]/Q  counter_maj\[0\]/A  counter_maj\[0\]/Y  un2_accumulator_un3_empty_1/B  un2_accumulator_un3_empty_1/Y  un2_accumulator_valid_1_sqmuxa_1/B  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter\[4\]/CLK  counter\[4\]/Q  counter_maj\[4\]/A  counter_maj\[4\]/Y  un2_accumulator_un3_empty_2/A  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_accumulator_5\[2\]/C  un2_accumulator_accumulator_5\[2\]/Y  accumulator\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_accumulator_5\[3\]/C  un2_accumulator_accumulator_5\[3\]/Y  accumulator\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_accumulator_5\[4\]/C  un2_accumulator_accumulator_5\[4\]/Y  accumulator\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_accumulator_5\[5\]/C  un2_accumulator_accumulator_5\[5\]/Y  accumulator\[5\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_accumulator_5\[6\]/C  un2_accumulator_accumulator_5\[6\]/Y  accumulator\[6\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_accumulator_5\[7\]/C  un2_accumulator_accumulator_5\[7\]/Y  accumulator\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_accumulator_5\[8\]/C  un2_accumulator_accumulator_5\[8\]/Y  accumulator\[8\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_accumulator_5\[0\]/C  un2_accumulator_accumulator_5\[0\]/Y  accumulator\[0\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_accumulator_5\[9\]/C  un2_accumulator_accumulator_5\[9\]/Y  accumulator\[9\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_accumulator_5\[11\]/C  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter\[1\]/CLK  counter\[1\]/Q  counter_maj\[1\]/A  counter_maj\[1\]/Y  un2_accumulator_un3_empty_2/B  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter\[2\]/CLK  counter\[2\]/Q  counter_maj\[2\]/A  counter_maj\[2\]/Y  un2_accumulator_un3_empty_1/A  un2_accumulator_un3_empty_1/Y  un2_accumulator_valid_1_sqmuxa_1/B  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_accumulator_5\[1\]/B  un2_accumulator_accumulator_5\[1\]/Y  accumulator\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_1_sqmuxa_1/A  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_accumulator_5\[10\]/B  un2_accumulator_accumulator_5\[10\]/Y  accumulator\[10\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[0\]/CLK  counter_tmr2\[0\]/Q  counter_maj\[0\]/B  counter_maj\[0\]/Y  un2_accumulator_counter_c1/B  un2_accumulator_counter_c1/Y  un2_accumulator_counter_c2/A  un2_accumulator_counter_c2/Y  un2_accumulator_counter_19_0/B  un2_accumulator_counter_19_0/Y  un2_accumulator_counter_n4/A  un2_accumulator_counter_n4/Y  un2_accumulator_counter_e4/A  un2_accumulator_counter_e4/Y  counter\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[0\]/CLK  counter_tmr2\[0\]/Q  counter_maj\[0\]/B  counter_maj\[0\]/Y  un2_accumulator_counter_c1/B  un2_accumulator_counter_c1/Y  un2_accumulator_counter_c2/A  un2_accumulator_counter_c2/Y  un2_accumulator_counter_19_0/B  un2_accumulator_counter_19_0/Y  un2_accumulator_counter_n4/A  un2_accumulator_counter_n4/Y  un2_accumulator_counter_e4/A  un2_accumulator_counter_e4/Y  counter_tmr3\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT rd_int_del_tmr2/CLK  rd_int_del_tmr2/Q  rd_int_del_maj/B  rd_int_del_maj/Y  un2_accumulator_valid_0_sqmuxa/A  un2_accumulator_valid_0_sqmuxa/Y  un2_accumulator_valid_1_sqmuxa_1/C  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT rd_int_del_tmr3/CLK  rd_int_del_tmr3/Q  rd_int_del_maj/C  rd_int_del_maj/Y  un2_accumulator_valid_0_sqmuxa/A  un2_accumulator_valid_0_sqmuxa/Y  un2_accumulator_valid_1_sqmuxa_1/C  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[1\]/CLK  counter_tmr2\[1\]/Q  counter_maj\[1\]/B  counter_maj\[1\]/Y  un2_accumulator_counter_c1/A  un2_accumulator_counter_c1/Y  un2_accumulator_counter_c2/A  un2_accumulator_counter_c2/Y  un2_accumulator_counter_19_0/B  un2_accumulator_counter_19_0/Y  un2_accumulator_counter_n4/A  un2_accumulator_counter_n4/Y  un2_accumulator_counter_e4/A  un2_accumulator_counter_e4/Y  counter\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT rd_int_del_tmr3/CLK  rd_int_del_tmr3/Q  rd_int_del_maj/C  rd_int_del_maj/Y  un2_accumulator_valid_0_sqmuxa/A  un2_accumulator_valid_0_sqmuxa/Y  un2_accumulator_valid_1_sqmuxa_1/C  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter_tmr2\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT rd_int_del_tmr3/CLK  rd_int_del_tmr3/Q  rd_int_del_maj/C  rd_int_del_maj/Y  un2_accumulator_valid_0_sqmuxa/A  un2_accumulator_valid_0_sqmuxa/Y  un2_accumulator_valid_1_sqmuxa_1/C  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter_tmr3\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_rd_int_4_i/B  un2_accumulator_rd_int_4_i/Y  rd_int/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_rd_int_4_i/B  un2_accumulator_rd_int_4_i/Y  rd_int_tmr3/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_9/S  un2_accumulator_output_9/Y  output\[15\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_8/S  un2_accumulator_output_8/Y  output\[14\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_7/S  un2_accumulator_output_7/Y  output\[13\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_6/S  un2_accumulator_output_6/Y  output\[12\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_5/S  un2_accumulator_output_5/Y  output\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_4/S  un2_accumulator_output_4/Y  output\[10\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_3/S  un2_accumulator_output_3/Y  output\[9\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_2/S  un2_accumulator_output_2/Y  output\[8\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_9/S  un2_accumulator_output_9/Y  output_tmr2\[15\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_9/S  un2_accumulator_output_9/Y  output_tmr3\[15\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_8/S  un2_accumulator_output_8/Y  output_tmr2\[14\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_8/S  un2_accumulator_output_8/Y  output_tmr3\[14\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_7/S  un2_accumulator_output_7/Y  output_tmr2\[13\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_7/S  un2_accumulator_output_7/Y  output_tmr3\[13\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_6/S  un2_accumulator_output_6/Y  output_tmr2\[12\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_6/S  un2_accumulator_output_6/Y  output_tmr3\[12\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_5/S  un2_accumulator_output_5/Y  output_tmr2\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_5/S  un2_accumulator_output_5/Y  output_tmr3\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_4/S  un2_accumulator_output_4/Y  output_tmr2\[10\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_4/S  un2_accumulator_output_4/Y  output_tmr3\[10\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_3/S  un2_accumulator_output_3/Y  output_tmr2\[9\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_3/S  un2_accumulator_output_3/Y  output_tmr3\[9\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_2/S  un2_accumulator_output_2/Y  output_tmr2\[8\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_output_2/S  un2_accumulator_output_2/Y  output_tmr3\[8\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_accumulator_5\[4\]/A  un2_accumulator_accumulator_5\[4\]/Y  accumulator\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_accumulator_5\[4\]/A  un2_accumulator_accumulator_5\[4\]/Y  accumulator_tmr2\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I18_Y/B  un2_accumulator_ADD_12x12_medium_area_I18_Y/Y  un2_accumulator_accumulator_5\[4\]/A  un2_accumulator_accumulator_5\[4\]/Y  accumulator_tmr3\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT rd_int_del/CLK  rd_int_del/Q  rd_int_del_maj/A  rd_int_del_maj/Y  un2_accumulator_valid_0_sqmuxa/A  un2_accumulator_valid_0_sqmuxa/Y  un2_accumulator_valid_1_sqmuxa_1/C  un2_accumulator_valid_1_sqmuxa_1/Y  un2_accumulator_counter_n1/C  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[0\]/CLK  counter_tmr2\[0\]/Q  counter_maj\[0\]/B  counter_maj\[0\]/Y  un2_accumulator_un3_empty_1/B  un2_accumulator_un3_empty_1/Y  un2_accumulator_valid_0_sqmuxa_1/A  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_rd_int_4_i/B  un2_accumulator_rd_int_4_i/Y  rd_int/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I36_Y/B  un2_accumulator_ADD_12x12_medium_area_I36_Y/Y  un2_accumulator_accumulator_5\[3\]/B  un2_accumulator_accumulator_5\[3\]/Y  accumulator\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I36_Y/B  un2_accumulator_ADD_12x12_medium_area_I36_Y/Y  un2_accumulator_accumulator_5\[3\]/B  un2_accumulator_accumulator_5\[3\]/Y  accumulator_tmr2\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_ADD_12x12_medium_area_I36_Y/B  un2_accumulator_ADD_12x12_medium_area_I36_Y/Y  un2_accumulator_accumulator_5\[3\]/B  un2_accumulator_accumulator_5\[3\]/Y  accumulator_tmr3\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT rd_int_del_tmr2/CLK  rd_int_del_tmr2/Q  rd_int_del_maj/B  rd_int_del_maj/Y  un2_accumulator_valid_0_sqmuxa/A  un2_accumulator_valid_0_sqmuxa/Y  un2_accumulator_valid_0_sqmuxa_1/C  un2_accumulator_valid_0_sqmuxa_1/Y  un2_accumulator_rd_int_4_i/B  un2_accumulator_rd_int_4_i/Y  rd_int/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[6\]/CLK  accumulator_tmr2\[6\]/Q  accumulator_maj\[6\]/B  accumulator_maj\[6\]/Y  un2_accumulator_ADD_12x12_medium_area_I6_S/B  un2_accumulator_ADD_12x12_medium_area_I6_S/Y  un2_accumulator_ADD_12x12_medium_area_I34_Y/B  un2_accumulator_ADD_12x12_medium_area_I34_Y/Y  un2_accumulator_accumulator_5\[7\]/B  un2_accumulator_accumulator_5\[7\]/Y  accumulator\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[2\]/CLK  counter_tmr2\[2\]/Q  counter_maj\[2\]/B  counter_maj\[2\]/Y  un2_accumulator_counter_c2/B  un2_accumulator_counter_c2/Y  un2_accumulator_counter_19_0/B  un2_accumulator_counter_19_0/Y  un2_accumulator_counter_n4/A  un2_accumulator_counter_n4/Y  un2_accumulator_counter_e4/A  un2_accumulator_counter_e4/Y  counter\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[0\]/CLK  counter_tmr2\[0\]/Q  counter_maj\[0\]/B  counter_maj\[0\]/Y  un2_accumulator_counter_c1/B  un2_accumulator_counter_c1/Y  un2_accumulator_counter_c2/A  un2_accumulator_counter_c2/Y  un2_accumulator_counter_n3/A  un2_accumulator_counter_n3/Y  un2_accumulator_counter_e3/A  un2_accumulator_counter_e3/Y  counter\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[0\]/CLK  counter_tmr2\[0\]/Q  counter_maj\[0\]/B  counter_maj\[0\]/Y  un2_accumulator_counter_c1/B  un2_accumulator_counter_c1/Y  un2_accumulator_counter_c2/A  un2_accumulator_counter_c2/Y  un2_accumulator_counter_n3/A  un2_accumulator_counter_n3/Y  un2_accumulator_counter_e3/A  un2_accumulator_counter_e3/Y  counter_tmr3\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[8\]/CLK  accumulator_tmr2\[8\]/Q  accumulator_maj\[8\]/B  accumulator_maj\[8\]/Y  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/B  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/B  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr3\[8\]/CLK  accumulator_tmr3\[8\]/Q  accumulator_maj\[8\]/C  accumulator_maj\[8\]/Y  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/B  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/B  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[8\]/CLK  accumulator_tmr2\[8\]/Q  accumulator_maj\[8\]/B  accumulator_maj\[8\]/Y  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/B  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I46_Y/B  un2_accumulator_ADD_12x12_medium_area_I46_Y/Y  un2_accumulator_accumulator_5\[10\]/A  un2_accumulator_accumulator_5\[10\]/Y  accumulator\[10\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[8\]/CLK  accumulator_tmr2\[8\]/Q  accumulator_maj\[8\]/B  accumulator_maj\[8\]/Y  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/B  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I46_Y/B  un2_accumulator_ADD_12x12_medium_area_I46_Y/Y  un2_accumulator_accumulator_5\[10\]/A  un2_accumulator_accumulator_5\[10\]/Y  accumulator_tmr3\[10\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[6\]/CLK  accumulator_tmr2\[6\]/Q  accumulator_maj\[6\]/B  accumulator_maj\[6\]/Y  un2_accumulator_ADD_12x12_medium_area_I6_CO1/B  un2_accumulator_ADD_12x12_medium_area_I6_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I34_Y/C  un2_accumulator_ADD_12x12_medium_area_I34_Y/Y  un2_accumulator_accumulator_5\[7\]/B  un2_accumulator_accumulator_5\[7\]/Y  accumulator\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[4\]/CLK  accumulator_tmr2\[4\]/Q  accumulator_maj\[4\]/B  accumulator_maj\[4\]/Y  un2_accumulator_ADD_12x12_medium_area_I4_S/B  un2_accumulator_ADD_12x12_medium_area_I4_S/Y  un2_accumulator_ADD_12x12_medium_area_I35_Y/A  un2_accumulator_ADD_12x12_medium_area_I35_Y/Y  un2_accumulator_accumulator_5\[5\]/A  un2_accumulator_accumulator_5\[5\]/Y  accumulator\[5\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[4\]/CLK  accumulator_tmr2\[4\]/Q  accumulator_maj\[4\]/B  accumulator_maj\[4\]/Y  un2_accumulator_ADD_12x12_medium_area_I4_S/B  un2_accumulator_ADD_12x12_medium_area_I4_S/Y  un2_accumulator_ADD_12x12_medium_area_I35_Y/A  un2_accumulator_ADD_12x12_medium_area_I35_Y/Y  un2_accumulator_accumulator_5\[5\]/A  un2_accumulator_accumulator_5\[5\]/Y  accumulator_tmr2\[5\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  valid_tmr2/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  valid_tmr3/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_un3_empty_2/C  un2_accumulator_un3_empty_2/Y  un2_accumulator_valid_0_sqmuxa_1/B  un2_accumulator_valid_0_sqmuxa_1/Y  valid/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[9\]/CLK  accumulator_tmr2\[9\]/Q  accumulator_maj\[9\]/B  accumulator_maj\[9\]/Y  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/A  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/B  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator\[8\]/CLK  accumulator\[8\]/Q  accumulator_maj\[8\]/A  accumulator_maj\[8\]/Y  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/B  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/B  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[2\]/CLK  accumulator_tmr2\[2\]/Q  accumulator_maj\[2\]/B  accumulator_maj\[2\]/Y  un2_accumulator_ADD_12x12_medium_area_I2_S/A  un2_accumulator_ADD_12x12_medium_area_I2_S/Y  un2_accumulator_ADD_12x12_medium_area_I36_Y/A  un2_accumulator_ADD_12x12_medium_area_I36_Y/Y  un2_accumulator_accumulator_5\[3\]/B  un2_accumulator_accumulator_5\[3\]/Y  accumulator\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[4\]/CLK  accumulator_tmr2\[4\]/Q  accumulator_maj\[4\]/B  accumulator_maj\[4\]/Y  un2_accumulator_ADD_12x12_medium_area_I4_S/B  un2_accumulator_ADD_12x12_medium_area_I4_S/Y  un2_accumulator_accumulator_5\[4\]/B  un2_accumulator_accumulator_5\[4\]/Y  accumulator\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr3\[9\]/CLK  accumulator_tmr3\[9\]/Q  accumulator_maj\[9\]/C  accumulator_maj\[9\]/Y  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/A  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/B  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[0\]/CLK  counter_tmr2\[0\]/Q  counter_maj\[0\]/B  counter_maj\[0\]/Y  un2_accumulator_counter_c1/B  un2_accumulator_counter_c1/Y  un2_accumulator_counter_n2/A  un2_accumulator_counter_n2/Y  un2_accumulator_counter_e2/A  un2_accumulator_counter_e2/Y  counter\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[0\]/CLK  counter_tmr2\[0\]/Q  counter_maj\[0\]/B  counter_maj\[0\]/Y  un2_accumulator_counter_c1/B  un2_accumulator_counter_c1/Y  un2_accumulator_counter_n2/A  un2_accumulator_counter_n2/Y  un2_accumulator_counter_e2/A  un2_accumulator_counter_e2/Y  counter_tmr3\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[2\]/CLK  accumulator_tmr2\[2\]/Q  accumulator_maj\[2\]/B  accumulator_maj\[2\]/Y  un2_accumulator_ADD_12x12_medium_area_I2_CO1/A  un2_accumulator_ADD_12x12_medium_area_I2_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I36_Y/C  un2_accumulator_ADD_12x12_medium_area_I36_Y/Y  un2_accumulator_accumulator_5\[3\]/B  un2_accumulator_accumulator_5\[3\]/Y  accumulator\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I37_Y/C  un2_accumulator_ADD_12x12_medium_area_I37_Y/Y  un2_accumulator_accumulator_5\[1\]/A  un2_accumulator_accumulator_5\[1\]/Y  accumulator\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[4\]/CLK  accumulator_tmr2\[4\]/Q  accumulator_maj\[4\]/B  accumulator_maj\[4\]/Y  un2_accumulator_ADD_12x12_medium_area_I4_CO1/B  un2_accumulator_ADD_12x12_medium_area_I4_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I35_Y/C  un2_accumulator_ADD_12x12_medium_area_I35_Y/Y  un2_accumulator_accumulator_5\[5\]/A  un2_accumulator_accumulator_5\[5\]/Y  accumulator\[5\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_accumulator_5\[2\]/A  un2_accumulator_accumulator_5\[2\]/Y  accumulator\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_accumulator_5\[2\]/A  un2_accumulator_accumulator_5\[2\]/Y  accumulator_tmr2\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I15_Y/C  un2_accumulator_ADD_12x12_medium_area_I15_Y/Y  un2_accumulator_accumulator_5\[2\]/A  un2_accumulator_accumulator_5\[2\]/Y  accumulator_tmr3\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_counter_19_0/A  un2_accumulator_counter_19_0/Y  un2_accumulator_counter_n4/A  un2_accumulator_counter_n4/Y  un2_accumulator_counter_e4/A  un2_accumulator_counter_e4/Y  counter\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[5\]/CLK  accumulator_tmr2\[5\]/Q  accumulator_maj\[5\]/B  accumulator_maj\[5\]/Y  un2_accumulator_ADD_12x12_medium_area_I5_S/B  un2_accumulator_ADD_12x12_medium_area_I5_S/Y  un2_accumulator_accumulator_5\[5\]/B  un2_accumulator_accumulator_5\[5\]/Y  accumulator\[5\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I37_Y/C  un2_accumulator_ADD_12x12_medium_area_I37_Y/Y  un2_accumulator_accumulator_5\[1\]/A  un2_accumulator_accumulator_5\[1\]/Y  accumulator_tmr2\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_ADD_12x12_medium_area_I0_CO1/A  un2_accumulator_ADD_12x12_medium_area_I0_CO1/Y  un2_accumulator_ADD_12x12_medium_area_I37_Y/C  un2_accumulator_ADD_12x12_medium_area_I37_Y/Y  un2_accumulator_accumulator_5\[1\]/A  un2_accumulator_accumulator_5\[1\]/Y  accumulator_tmr3\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator\[9\]/CLK  accumulator\[9\]/Q  accumulator_maj\[9\]/A  accumulator_maj\[9\]/Y  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/A  un2_accumulator_ADD_12x12_medium_area_I24_Y_0/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/B  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[8\]/CLK  accumulator_tmr2\[8\]/Q  accumulator_maj\[8\]/B  accumulator_maj\[8\]/Y  un2_accumulator_ADD_12x12_medium_area_I33_un1_Y/B  un2_accumulator_ADD_12x12_medium_area_I33_un1_Y/Y  un2_accumulator_accumulator_5\[9\]/B  un2_accumulator_accumulator_5\[9\]/Y  accumulator\[9\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_counter_n3/B  un2_accumulator_counter_n3/Y  un2_accumulator_counter_e3/A  un2_accumulator_counter_e3/Y  counter\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[0\]/CLK  counter_tmr2\[0\]/Q  counter_maj\[0\]/B  counter_maj\[0\]/Y  un2_accumulator_counter_n1/B  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[2\]/CLK  counter_tmr2\[2\]/Q  counter_maj\[2\]/B  counter_maj\[2\]/Y  un2_accumulator_counter_n2/B  un2_accumulator_counter_n2/Y  un2_accumulator_counter_e2/A  un2_accumulator_counter_e2/Y  counter\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_counter_n3/B  un2_accumulator_counter_n3/Y  un2_accumulator_counter_e3/A  un2_accumulator_counter_e3/Y  counter_tmr2\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[2\]/CLK  counter_tmr2\[2\]/Q  counter_maj\[2\]/B  counter_maj\[2\]/Y  un2_accumulator_counter_n2/B  un2_accumulator_counter_n2/Y  un2_accumulator_counter_e2/A  un2_accumulator_counter_e2/Y  counter_tmr2\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[4\]/CLK  counter_tmr2\[4\]/Q  counter_maj\[4\]/B  counter_maj\[4\]/Y  un2_accumulator_counter_n4/B  un2_accumulator_counter_n4/Y  un2_accumulator_counter_e4/A  un2_accumulator_counter_e4/Y  counter\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[6\]/CLK  accumulator_tmr2\[6\]/Q  accumulator_maj\[6\]/B  accumulator_maj\[6\]/Y  un2_accumulator_ADD_12x12_medium_area_I6_S/B  un2_accumulator_ADD_12x12_medium_area_I6_S/Y  un2_accumulator_accumulator_5\[6\]/A  un2_accumulator_accumulator_5\[6\]/Y  accumulator\[6\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[4\]/CLK  counter_tmr2\[4\]/Q  counter_maj\[4\]/B  counter_maj\[4\]/Y  un2_accumulator_counter_n4/B  un2_accumulator_counter_n4/Y  un2_accumulator_counter_e4/A  un2_accumulator_counter_e4/Y  counter_tmr2\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[10\]/CLK  accumulator_tmr2\[10\]/Q  accumulator_maj\[10\]/B  accumulator_maj\[10\]/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/C  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[10\]/CLK  accumulator_tmr2\[10\]/Q  accumulator_maj\[10\]/B  accumulator_maj\[10\]/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/C  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator_tmr2\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[2\]/CLK  accumulator_tmr2\[2\]/Q  accumulator_maj\[2\]/B  accumulator_maj\[2\]/Y  un2_accumulator_ADD_12x12_medium_area_I2_S/A  un2_accumulator_ADD_12x12_medium_area_I2_S/Y  un2_accumulator_accumulator_5\[2\]/B  un2_accumulator_accumulator_5\[2\]/Y  accumulator\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr3\[10\]/CLK  accumulator_tmr3\[10\]/Q  accumulator_maj\[10\]/C  accumulator_maj\[10\]/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/C  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[7\]/CLK  accumulator_tmr2\[7\]/Q  accumulator_maj\[7\]/B  accumulator_maj\[7\]/Y  un2_accumulator_ADD_12x12_medium_area_I7_S/B  un2_accumulator_ADD_12x12_medium_area_I7_S/Y  un2_accumulator_accumulator_5\[7\]/A  un2_accumulator_accumulator_5\[7\]/Y  accumulator\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[1\]/CLK  counter_tmr2\[1\]/Q  counter_maj\[1\]/B  counter_maj\[1\]/Y  un2_accumulator_counter_n1/A  un2_accumulator_counter_n1/Y  un2_accumulator_counter_e1/A  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator\[10\]/CLK  accumulator\[10\]/Q  accumulator_maj\[10\]/A  accumulator_maj\[10\]/Y  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/C  un2_accumulator_ADD_12x12_medium_area_I32_un1_Y/Y  un2_accumulator_accumulator_5\[11\]/B  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[10\]/CLK  accumulator_tmr2\[10\]/Q  accumulator_maj\[10\]/B  accumulator_maj\[10\]/Y  un2_accumulator_ADD_12x12_medium_area_I46_Y/C  un2_accumulator_ADD_12x12_medium_area_I46_Y/Y  un2_accumulator_accumulator_5\[10\]/A  un2_accumulator_accumulator_5\[10\]/Y  accumulator\[10\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[1\]/CLK  accumulator_tmr2\[1\]/Q  accumulator_maj\[1\]/B  accumulator_maj\[1\]/Y  un2_accumulator_ADD_12x12_medium_area_I37_Y/B  un2_accumulator_ADD_12x12_medium_area_I37_Y/Y  un2_accumulator_accumulator_5\[1\]/A  un2_accumulator_accumulator_5\[1\]/Y  accumulator\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[3\]/CLK  accumulator_tmr2\[3\]/Q  accumulator_maj\[3\]/B  accumulator_maj\[3\]/Y  un2_accumulator_ADD_12x12_medium_area_I3_S/A  un2_accumulator_ADD_12x12_medium_area_I3_S/Y  un2_accumulator_accumulator_5\[3\]/A  un2_accumulator_accumulator_5\[3\]/Y  accumulator\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[3\]/CLK  counter_tmr2\[3\]/Q  counter_maj\[3\]/B  counter_maj\[3\]/Y  un2_accumulator_counter_e3/B  un2_accumulator_counter_e3/Y  counter\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[1\]/CLK  counter_tmr2\[1\]/Q  counter_maj\[1\]/B  counter_maj\[1\]/Y  un2_accumulator_counter_e1/B  un2_accumulator_counter_e1/Y  counter\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[2\]/CLK  counter_tmr2\[2\]/Q  counter_maj\[2\]/B  counter_maj\[2\]/Y  un2_accumulator_counter_e2/B  un2_accumulator_counter_e2/Y  counter\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[8\]/CLK  accumulator_tmr2\[8\]/Q  accumulator_maj\[8\]/B  accumulator_maj\[8\]/Y  un2_accumulator_output_6/B  un2_accumulator_output_6/Y  output\[12\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[0\]/CLK  counter_tmr2\[0\]/Q  counter_maj\[0\]/B  counter_maj\[0\]/Y  un2_accumulator_counter_e0/C  un2_accumulator_counter_e0/Y  counter\[0\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT counter_tmr2\[4\]/CLK  counter_tmr2\[4\]/Q  counter_maj\[4\]/B  counter_maj\[4\]/Y  un2_accumulator_counter_e4/B  un2_accumulator_counter_e4/Y  counter\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_accumulator_5\[0\]/B  un2_accumulator_accumulator_5\[0\]/Y  accumulator\[0\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[8\]/CLK  accumulator_tmr2\[8\]/Q  accumulator_maj\[8\]/B  accumulator_maj\[8\]/Y  un2_accumulator_accumulator_5\[8\]/A  un2_accumulator_accumulator_5\[8\]/Y  accumulator\[8\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_accumulator_5\[0\]/B  un2_accumulator_accumulator_5\[0\]/Y  accumulator_tmr2\[0\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[0\]/CLK  accumulator_tmr2\[0\]/Q  accumulator_maj\[0\]/B  accumulator_maj\[0\]/Y  un2_accumulator_accumulator_5\[0\]/B  un2_accumulator_accumulator_5\[0\]/Y  accumulator_tmr3\[0\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[6\]/CLK  accumulator_tmr2\[6\]/Q  accumulator_maj\[6\]/B  accumulator_maj\[6\]/Y  un2_accumulator_output_4/B  un2_accumulator_output_4/Y  output\[10\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[4\]/CLK  accumulator_tmr2\[4\]/Q  accumulator_maj\[4\]/B  accumulator_maj\[4\]/Y  un2_accumulator_output_2/B  un2_accumulator_output_2/Y  output\[8\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[7\]/CLK  accumulator_tmr2\[7\]/Q  accumulator_maj\[7\]/B  accumulator_maj\[7\]/Y  un2_accumulator_output_5/B  un2_accumulator_output_5/Y  output\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[5\]/CLK  accumulator_tmr2\[5\]/Q  accumulator_maj\[5\]/B  accumulator_maj\[5\]/Y  un2_accumulator_output_3/B  un2_accumulator_output_3/Y  output\[9\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[9\]/CLK  accumulator_tmr2\[9\]/Q  accumulator_maj\[9\]/B  accumulator_maj\[9\]/Y  un2_accumulator_output_7/B  un2_accumulator_output_7/Y  output\[13\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[10\]/CLK  accumulator_tmr2\[10\]/Q  accumulator_maj\[10\]/B  accumulator_maj\[10\]/Y  un2_accumulator_output_8/B  un2_accumulator_output_8/Y  output\[14\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[9\]/CLK  accumulator_tmr2\[9\]/Q  accumulator_maj\[9\]/B  accumulator_maj\[9\]/Y  un2_accumulator_accumulator_5\[9\]/A  un2_accumulator_accumulator_5\[9\]/Y  accumulator\[9\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT rd_int_del_tmr2/CLK  rd_int_del_tmr2/Q  rd_int_del_maj/B  rd_int_del_maj/Y  un2_accumulator_rd_int_del_10/A  un2_accumulator_rd_int_del_10/Y  rd_int_del/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT rd_int_del_tmr2/CLK  rd_int_del_tmr2/Q  rd_int_del_maj/B  rd_int_del_maj/Y  un2_accumulator_rd_int_del_10/A  un2_accumulator_rd_int_del_10/Y  rd_int_del_tmr3/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[11\]/CLK  accumulator_tmr2\[11\]/Q  accumulator_maj\[11\]/B  accumulator_maj\[11\]/Y  un2_accumulator_output_9/B  un2_accumulator_output_9/Y  output\[15\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT rd_int_tmr2/CLK  rd_int_tmr2/Q  rd_int_maj/B  rd_int_maj/Y  un2_accumulator_rd_int_del_10/B  un2_accumulator_rd_int_del_10/Y  rd_int_del/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT rd_int_tmr2/CLK  rd_int_tmr2/Q  rd_int_maj/B  rd_int_maj/Y  un2_accumulator_rd_int_del_10/B  un2_accumulator_rd_int_del_10/Y  rd_int_del_tmr2/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr2\[15\]/CLK  output_tmr2\[15\]/Q  output_maj\[15\]/B  output_maj\[15\]/Y  un2_accumulator_output_9/A  un2_accumulator_output_9/Y  output\[15\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr2\[14\]/CLK  output_tmr2\[14\]/Q  output_maj\[14\]/B  output_maj\[14\]/Y  un2_accumulator_output_8/A  un2_accumulator_output_8/Y  output\[14\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr2\[13\]/CLK  output_tmr2\[13\]/Q  output_maj\[13\]/B  output_maj\[13\]/Y  un2_accumulator_output_7/A  un2_accumulator_output_7/Y  output\[13\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr2\[12\]/CLK  output_tmr2\[12\]/Q  output_maj\[12\]/B  output_maj\[12\]/Y  un2_accumulator_output_6/A  un2_accumulator_output_6/Y  output\[12\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr2\[11\]/CLK  output_tmr2\[11\]/Q  output_maj\[11\]/B  output_maj\[11\]/Y  un2_accumulator_output_5/A  un2_accumulator_output_5/Y  output\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr2\[10\]/CLK  output_tmr2\[10\]/Q  output_maj\[10\]/B  output_maj\[10\]/Y  un2_accumulator_output_4/A  un2_accumulator_output_4/Y  output\[10\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr2\[9\]/CLK  output_tmr2\[9\]/Q  output_maj\[9\]/B  output_maj\[9\]/Y  un2_accumulator_output_3/A  un2_accumulator_output_3/Y  output\[9\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr2\[8\]/CLK  output_tmr2\[8\]/Q  output_maj\[8\]/B  output_maj\[8\]/Y  un2_accumulator_output_2/A  un2_accumulator_output_2/Y  output\[8\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr3\[15\]/CLK  output_tmr3\[15\]/Q  output_maj\[15\]/C  output_maj\[15\]/Y  un2_accumulator_output_9/A  un2_accumulator_output_9/Y  output\[15\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr3\[14\]/CLK  output_tmr3\[14\]/Q  output_maj\[14\]/C  output_maj\[14\]/Y  un2_accumulator_output_8/A  un2_accumulator_output_8/Y  output\[14\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr3\[13\]/CLK  output_tmr3\[13\]/Q  output_maj\[13\]/C  output_maj\[13\]/Y  un2_accumulator_output_7/A  un2_accumulator_output_7/Y  output\[13\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr3\[12\]/CLK  output_tmr3\[12\]/Q  output_maj\[12\]/C  output_maj\[12\]/Y  un2_accumulator_output_6/A  un2_accumulator_output_6/Y  output\[12\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr3\[11\]/CLK  output_tmr3\[11\]/Q  output_maj\[11\]/C  output_maj\[11\]/Y  un2_accumulator_output_5/A  un2_accumulator_output_5/Y  output\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr3\[10\]/CLK  output_tmr3\[10\]/Q  output_maj\[10\]/C  output_maj\[10\]/Y  un2_accumulator_output_4/A  un2_accumulator_output_4/Y  output\[10\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr3\[9\]/CLK  output_tmr3\[9\]/Q  output_maj\[9\]/C  output_maj\[9\]/Y  un2_accumulator_output_3/A  un2_accumulator_output_3/Y  output\[9\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output_tmr3\[8\]/CLK  output_tmr3\[8\]/Q  output_maj\[8\]/C  output_maj\[8\]/Y  un2_accumulator_output_2/A  un2_accumulator_output_2/Y  output\[8\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr3\[11\]/CLK  accumulator_tmr3\[11\]/Q  accumulator_maj\[11\]/C  accumulator_maj\[11\]/Y  un2_accumulator_output_9/B  un2_accumulator_output_9/Y  output\[15\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT rd_int_tmr3/CLK  rd_int_tmr3/Q  rd_int_maj/C  rd_int_maj/Y  un2_accumulator_rd_int_del_10/B  un2_accumulator_rd_int_del_10/Y  rd_int_del/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator_tmr2\[11\]/CLK  accumulator_tmr2\[11\]/Q  accumulator_maj\[11\]/B  accumulator_maj\[11\]/Y  un2_accumulator_accumulator_5\[11\]/A  un2_accumulator_accumulator_5\[11\]/Y  accumulator\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output\[8\]/CLK  output\[8\]/Q  output_maj\[8\]/A  output_maj\[8\]/Y  un2_accumulator_output_2/A  un2_accumulator_output_2/Y  output\[8\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output\[9\]/CLK  output\[9\]/Q  output_maj\[9\]/A  output_maj\[9\]/Y  un2_accumulator_output_3/A  un2_accumulator_output_3/Y  output\[9\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output\[10\]/CLK  output\[10\]/Q  output_maj\[10\]/A  output_maj\[10\]/Y  un2_accumulator_output_4/A  un2_accumulator_output_4/Y  output\[10\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output\[11\]/CLK  output\[11\]/Q  output_maj\[11\]/A  output_maj\[11\]/Y  un2_accumulator_output_5/A  un2_accumulator_output_5/Y  output\[11\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output\[12\]/CLK  output\[12\]/Q  output_maj\[12\]/A  output_maj\[12\]/Y  un2_accumulator_output_6/A  un2_accumulator_output_6/Y  output\[12\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output\[13\]/CLK  output\[13\]/Q  output_maj\[13\]/A  output_maj\[13\]/Y  un2_accumulator_output_7/A  un2_accumulator_output_7/Y  output\[13\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output\[14\]/CLK  output\[14\]/Q  output_maj\[14\]/A  output_maj\[14\]/Y  un2_accumulator_output_8/A  un2_accumulator_output_8/Y  output\[14\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT output\[15\]/CLK  output\[15\]/Q  output_maj\[15\]/A  output_maj\[15\]/Y  un2_accumulator_output_9/A  un2_accumulator_output_9/Y  output\[15\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT rd_int/CLK  rd_int/Q  rd_int_maj/A  rd_int_maj/Y  un2_accumulator_rd_int_del_10/B  un2_accumulator_rd_int_del_10/Y  rd_int_del/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT accumulator\[11\]/CLK  accumulator\[11\]/Q  accumulator_maj\[11\]/A  accumulator_maj\[11\]/Y  un2_accumulator_output_9/B  un2_accumulator_output_9/Y  output\[15\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT rd_int_tmr2/CLK  rd_int_tmr2/Q  rd_int_maj/B  rd_int_maj/Y  read_pad/D  read_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT output_tmr2\[15\]/CLK  output_tmr2\[15\]/Q  output_maj\[15\]/B  output_maj\[15\]/Y  result_pad\[7\]/D  result_pad\[7\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT output_tmr2\[14\]/CLK  output_tmr2\[14\]/Q  output_maj\[14\]/B  output_maj\[14\]/Y  result_pad\[6\]/D  result_pad\[6\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT output_tmr2\[13\]/CLK  output_tmr2\[13\]/Q  output_maj\[13\]/B  output_maj\[13\]/Y  result_pad\[5\]/D  result_pad\[5\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT output_tmr2\[12\]/CLK  output_tmr2\[12\]/Q  output_maj\[12\]/B  output_maj\[12\]/Y  result_pad\[4\]/D  result_pad\[4\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT output_tmr2\[11\]/CLK  output_tmr2\[11\]/Q  output_maj\[11\]/B  output_maj\[11\]/Y  result_pad\[3\]/D  result_pad\[3\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT output_tmr2\[10\]/CLK  output_tmr2\[10\]/Q  output_maj\[10\]/B  output_maj\[10\]/Y  result_pad\[2\]/D  result_pad\[2\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT output_tmr2\[9\]/CLK  output_tmr2\[9\]/Q  output_maj\[9\]/B  output_maj\[9\]/Y  result_pad\[1\]/D  result_pad\[1\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT output_tmr2\[8\]/CLK  output_tmr2\[8\]/Q  output_maj\[8\]/B  output_maj\[8\]/Y  result_pad\[0\]/D  result_pad\[0\]/PAD  	(10.0:10.0:10.0) )
+
+  )
+)
+)

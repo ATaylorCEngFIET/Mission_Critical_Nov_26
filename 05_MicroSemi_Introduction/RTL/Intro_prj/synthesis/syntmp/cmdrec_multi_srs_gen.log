@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.average  -multisrs  C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\synwork\average_comp.srs  -osyn  C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\synwork\average_mult.srs  -log  C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj\synthesis\synlog\average_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top work.average -multisrs ..\synwork\average_comp.srs -osyn ..\synwork\average_mult.srs -log ..\synlog\average_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\average_comp.srs|io:i|time:1606849146|size:3354|exec:0|csum:6F272168EFFAE8DD060560D021729C4E
+file:..\synwork\average_mult.srs|io:o|time:1606849147|size:2941|exec:0|csum:
+file:..\synlog\average_multi_srs_gen.srr|io:o|time:1606849147|size:409|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1509015412|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:..\..\..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1509015684|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

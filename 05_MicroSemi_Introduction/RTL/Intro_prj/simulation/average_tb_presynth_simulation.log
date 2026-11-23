@@ -1,0 +1,58 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3l C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vhdl/proasic3l 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 18:43:10 on Dec 01,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/aptay/Dropbox/adiuvo/mission_critical_course/06_MicroSemi_Introduction/RTL/Intro_prj/hdl/block_average.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity average
+# -- Compiling architecture rtl of average
+# End time: 18:43:10 on Dec 01,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vcom 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 18:43:10 on Dec 01,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/aptay/Dropbox/adiuvo/mission_critical_course/06_MicroSemi_Introduction/RTL/Intro_prj/stimulus/average_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity average_tb
+# -- Compiling architecture Behavioral of average_tb
+# ** Warning: C:/Users/aptay/Dropbox/adiuvo/mission_critical_course/06_MicroSemi_Introduction/RTL/Intro_prj/stimulus/average_tb.vhd(16): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 18:43:11 on Dec 01,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim -L proasic3l -L presynth -t 1ps presynth.average_tb 
+# Start time: 18:43:11 on Dec 01,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading presynth.average_tb(behavioral)
+# Loading presynth.average(rtl)
+# ** Failure: simulation complete
+#    Time: 625 ns  Iteration: 0  Process: /average_tb/stimulus File: C:/Users/aptay/Dropbox/adiuvo/mission_critical_course/06_MicroSemi_Introduction/RTL/Intro_prj/stimulus/average_tb.vhd
+# Break in Process stimulus at C:/Users/aptay/Dropbox/adiuvo/mission_critical_course/06_MicroSemi_Introduction/RTL/Intro_prj/stimulus/average_tb.vhd line 79
+# End time: 18:51:43 on Dec 01,2020, Elapsed time: 0:08:32
+# Errors: 0, Warnings: 0

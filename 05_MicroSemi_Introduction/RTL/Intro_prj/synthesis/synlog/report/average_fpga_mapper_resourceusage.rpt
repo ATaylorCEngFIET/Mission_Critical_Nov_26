@@ -1,0 +1,43 @@
+Target Part: RT3PE3000L_LGA484_STD
+Report for cell average.rtl
+  Core Cell usage:
+              cell count     area count*area
+               AO1     7      1.0        7.0
+             AOI1B     1      1.0        1.0
+              AX1C     1      1.0        1.0
+             AXOI7     1      1.0        1.0
+               GND     1      0.0        0.0
+              MAJ3    32      1.0       32.0
+               MX2    13      1.0       13.0
+              NOR2     3      1.0        3.0
+             NOR2A     1      1.0        1.0
+             NOR2B    15      1.0       15.0
+             NOR3A     1      1.0        1.0
+             NOR3C     2      1.0        2.0
+               VCC     1      0.0        0.0
+               XA1    14      1.0       14.0
+              XOR2     6      1.0        6.0
+              XOR3     1      1.0        1.0
+
+
+              DFN1    18      1.0       18.0
+            DFN1C1    66      1.0       66.0
+                   -----          ----------
+             TOTAL   184               182.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF     9
+            OUTBUF    14
+                   -----
+             TOTAL    25
+
+
+Core Cells         : 182 of 75264 (0%)
+IO Cells           : 25
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 112 (0%)
+

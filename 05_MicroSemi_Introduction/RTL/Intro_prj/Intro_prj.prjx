@@ -1,0 +1,299 @@
+KEY LIBERO "11.9"
+KEY CAPTURE "11.9.5.5"
+KEY DEFAULT_IMPORT_LOC "C:\GIT\plato-bb-development\cntrl_fpga_rtl\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "ProASIC3L"
+KEY VendorTechnology_Die "RTIT14X14M4LDP"
+KEY VendorTechnology_Package "cg484"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "MIL"
+KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_RAD_EXPOSURE "0"
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IT14X14M4LDP"
+KEY VendorTechnology_TEMPR "MIL"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "MIL"
+KEY VendorTechnology_VCCI_1.8_VOLTR "MIL"
+KEY VendorTechnology_VCCI_2.5_VOLTR "MIL"
+KEY VendorTechnology_VCCI_3.3_VOLTR "MIL"
+KEY VendorTechnology_VOLTR "MIL"
+KEY ProjectLocation "C:\Users\aptay\Dropbox\adiuvo\mission_critical_course\06_MicroSemi_Introduction\RTL\Intro_prj"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "average::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\average.adb,adb"
+STATE="utd"
+TIME="1606852282"
+SIZE="42496"
+ENDFILE
+VALUE "<project>\designer\impl1\average.ide_des,ide_des"
+STATE="utd"
+TIME="1606843811"
+SIZE="252"
+ENDFILE
+VALUE "<project>\designer\impl1\average.pdb,pdb"
+STATE="utd"
+TIME="1606855015"
+SIZE="22"
+ENDFILE
+VALUE "<project>\designer\impl1\average_compile_log.rpt,log"
+STATE="utd"
+TIME="1606852495"
+SIZE="8433"
+ENDFILE
+VALUE "<project>\designer\impl1\average_tb.ide_des,ide_des"
+STATE="utd"
+TIME="1606843447"
+SIZE="255"
+ENDFILE
+VALUE "<project>\hdl\block_average.vhd,hdl"
+STATE="utd"
+TIME="1606843447"
+SIZE="2089"
+ENDFILE
+VALUE "<project>\simulation\average_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1606848187"
+SIZE="68"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1606846933"
+SIZE="706"
+ENDFILE
+VALUE "<project>\simulation\testbench_presynth_simulation.log,log"
+STATE="utd"
+TIME="1606846936"
+SIZE="68"
+ENDFILE
+VALUE "<project>\stimulus\average_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1606844586"
+SIZE="1993"
+ENDFILE
+VALUE "<project>\synthesis\average.edn,syn_edn"
+STATE="utd"
+TIME="1606849151"
+SIZE="58050"
+ENDFILE
+VALUE "<project>\synthesis\average.so,so"
+STATE="utd"
+TIME="1606849151"
+SIZE="277"
+ENDFILE
+VALUE "<project>\synthesis\average_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1606849151"
+SIZE="396"
+ENDFILE
+VALUE "<project>\synthesis\average_syn.prj,prj"
+STATE="utd"
+TIME="1606848854"
+SIZE="702"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "average::work"
+FILE "<project>\hdl\block_average.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\average_tb.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideDESIGNER(<project>\designer\impl1\average.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\average.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\average_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\average_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST average
+VALUE "<project>\stimulus\average_tb.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=average_tb
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Modelsim\win32acoem\modelsim.exe"
+PARAM=" -l average_tb_presynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "average::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideDESIGNER(<project>\designer\impl1\average.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\average.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Compile:average_compile_log.rpt
+StartPage;StartPage;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "average::work","hdl\block_average.vhd","FALSE","FALSE"
+ENDLIST
+LIST "average_tb::work","stimulus\average_tb.vhd","FALSE","TRUE"
+SUBBLOCK "average::work","hdl\block_average.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "average::work"
+ACTIVETESTBENCH "average_tb::work","stimulus\average_tb.vhd","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

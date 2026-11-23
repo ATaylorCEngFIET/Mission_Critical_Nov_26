@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\aptay\dropbox\adiuvo\mission_critical_course\06_microsemi_introduction\rtl\intro_prj\hdl\block_average.vhd":36:4:36:5|Found inferred clock average|clk which controls 28 sequential elements including rd_int_del. This clock has no specified timing constraint which may adversely impact design performance. 
